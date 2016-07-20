@@ -4,12 +4,17 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using Abp.Localization;
-using Abp.Localization.Sources.Xml;
+using Abp.Localization.Dictionaries;
+using Abp.Localization.Dictionaries.Xml;
 using Abp.Modules;
+using Abp.Web.Mvc;
 
 namespace ModuleZeroSampleProject.Web
 {
-    [DependsOn(typeof(ModuleZeroSampleProjectDataModule), typeof(ModuleZeroSampleProjectApplicationModule), typeof(ModuleZeroSampleProjectWebApiModule))]
+    [DependsOn(
+        typeof(ModuleZeroSampleProjectDataModule), 
+        typeof(ModuleZeroSampleProjectWebApiModule),
+        typeof(AbpWebMvcModule))]
     public class ModuleZeroSampleProjectWebModule : AbpModule
     {
         public override void PreInitialize()
@@ -19,12 +24,12 @@ namespace ModuleZeroSampleProject.Web
             Configuration.Localization.Languages.Add(new LanguageInfo("tr", "Türkçe", "famfamfam-flag-tr"));
 
             //Add/remove localization sources here
-            Configuration.Localization.Sources.Add(
-                new XmlLocalizationSource(
-                    ModuleZeroSampleProjectConsts.LocalizationSourceName,
+            Configuration.Localization.Sources.Add(new DictionaryBasedLocalizationSource(
+                ModuleZeroSampleProjectConsts.LocalizationSourceName,
+                new XmlFileLocalizationDictionaryProvider(
                     HttpContext.Current.Server.MapPath("~/Localization/ModuleZeroSampleProject")
                     )
-                );
+                ));
 
             //Configure navigation/menu
             Configuration.Navigation.Providers.Add<ModuleZeroSampleProjectNavigationProvider>();

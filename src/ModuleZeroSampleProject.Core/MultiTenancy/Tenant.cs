@@ -3,7 +3,7 @@ using ModuleZeroSampleProject.Users;
 
 namespace ModuleZeroSampleProject.MultiTenancy
 {
-    public class Tenant : AbpTenant<Tenant, User>
+    public class Tenant : AbpTenant<User>
     {
         protected Tenant()
         {

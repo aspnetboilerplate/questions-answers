@@ -1,9 +1,8 @@
 ﻿using Abp.Authorization.Users;
-using ModuleZeroSampleProject.MultiTenancy;
 
 namespace ModuleZeroSampleProject.Users
 {
-    public class User : AbpUser<Tenant, User>
+    public class User : AbpUser<User>
     {
         public override string ToString()
         {

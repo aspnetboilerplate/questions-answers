@@ -48,7 +48,7 @@ namespace ModuleZeroSampleProject.Migrations.Data
 
                 context.SaveChanges();
 
-                context.UserRoles.Add(new UserRole(adminUserForTenancyOwner.Id, adminRoleForTenancyOwner.Id));
+                context.UserRoles.Add(new UserRole(null, adminUserForTenancyOwner.Id, adminRoleForTenancyOwner.Id));
 
                 context.SaveChanges();
             }
@@ -71,8 +71,8 @@ namespace ModuleZeroSampleProject.Migrations.Data
                 context.SaveChanges();
 
                 //Permission definitions for Admin of 'Default' tenant
-                context.Permissions.Add(new RolePermissionSetting { RoleId = adminRoleForDefaultTenant.Id, Name = "CanDeleteAnswers", IsGranted = true });
-                context.Permissions.Add(new RolePermissionSetting { RoleId = adminRoleForDefaultTenant.Id, Name = "CanDeleteQuestions", IsGranted = true });
+                context.Permissions.Add(new RolePermissionSetting { TenantId = defaultTenant.Id, RoleId = adminRoleForDefaultTenant.Id, Name = "CanDeleteAnswers", IsGranted = true });
+                context.Permissions.Add(new RolePermissionSetting { TenantId = defaultTenant.Id, RoleId = adminRoleForDefaultTenant.Id, Name = "CanDeleteQuestions", IsGranted = true });
                 context.SaveChanges();
             }
 
@@ -85,7 +85,7 @@ namespace ModuleZeroSampleProject.Migrations.Data
                 context.SaveChanges();
 
                 //Permission definitions for User of 'Default' tenant
-                context.Permissions.Add(new RolePermissionSetting { RoleId = userRoleForDefaultTenant.Id, Name = "CanCreateQuestions", IsGranted = true });
+                context.Permissions.Add(new RolePermissionSetting { TenantId = defaultTenant.Id, RoleId = userRoleForDefaultTenant.Id, Name = "CanCreateQuestions", IsGranted = true });
                 context.SaveChanges();
             }
 
@@ -107,8 +107,8 @@ namespace ModuleZeroSampleProject.Migrations.Data
                     });
                 context.SaveChanges();
 
-                context.UserRoles.Add(new UserRole(adminUserForDefaultTenant.Id, adminRoleForDefaultTenant.Id));
-                context.UserRoles.Add(new UserRole(adminUserForDefaultTenant.Id, userRoleForDefaultTenant.Id));
+                context.UserRoles.Add(new UserRole(defaultTenant.Id, adminUserForDefaultTenant.Id, adminRoleForDefaultTenant.Id));
+                context.UserRoles.Add(new UserRole(defaultTenant.Id, adminUserForDefaultTenant.Id, userRoleForDefaultTenant.Id));
                 context.SaveChanges();
 
                 var question1 = context.Questions.Add(
@@ -141,7 +141,7 @@ namespace ModuleZeroSampleProject.Migrations.Data
                     });
                 context.SaveChanges();
 
-                context.UserRoles.Add(new UserRole(emreUserForDefaultTenant.Id, userRoleForDefaultTenant.Id));
+                context.UserRoles.Add(new UserRole(defaultTenant.Id, emreUserForDefaultTenant.Id, userRoleForDefaultTenant.Id));
                 context.SaveChanges();
 
                 var question2 = context.Questions.Add(

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Data.Common;
-using System.Linq;
-using Abp.Collections;
-using Abp.Modules;
 using Abp.TestBase;
 using Castle.MicroKernel.Registration;
 using ModuleZeroSampleProject.EntityFramework;
@@ -10,7 +7,7 @@ using ModuleZeroSampleProject.Migrations.Data;
 
 namespace ModuleZeroSampleProject.Tests
 {
-    public abstract class SampleProjectTestBase : AbpIntegratedTestBase
+    public abstract class SampleProjectTestBase : AbpIntegratedTestBase<SampleProjectTestModule>
     {
         protected SampleProjectTestBase()
         {
@@ -25,13 +22,6 @@ namespace ModuleZeroSampleProject.Tests
             UsingDbContext(context => new InitialDataBuilder().Build(context));
             
             AbpSession.TenantId = 1;
-        }
-
-        protected override void AddModules(ITypeList<AbpModule> modules)
-        {
-            base.AddModules(modules);
-            modules.Add<ModuleZeroSampleProjectApplicationModule>();
-            modules.Add<ModuleZeroSampleProjectDataModule>();
         }
 
         public void UsingDbContext(Action<ModuleZeroSampleProjectDbContext> action)

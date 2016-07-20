@@ -5,6 +5,8 @@ using Abp.Configuration.Startup;
 using Abp.Dependency;
 using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
+using Abp.Organizations;
+using Abp.Runtime.Caching;
 using Abp.Zero.Configuration;
 using ModuleZeroSampleProject.Authorization;
 using ModuleZeroSampleProject.MultiTenancy;
@@ -14,27 +16,36 @@ namespace ModuleZeroSampleProject.Users
     public class UserManager : AbpUserManager<Tenant, Role, User>
     {
         public UserManager(
-            UserStore userStore, 
-            RoleManager roleManager, 
-            IRepository<Tenant> tenantRepository, 
-            IMultiTenancyConfig multiTenancyConfig, 
-            IPermissionManager permissionManager, 
-            IUnitOfWorkManager unitOfWorkManager, 
-            ISettingManager settingManager, 
-            IUserManagementConfig userManagementConfig, 
+            UserStore store,
+            RoleManager roleManager,
+            IRepository<Tenant> tenantRepository,
+            IMultiTenancyConfig multiTenancyConfig,
+            IPermissionManager permissionManager,
+            IUnitOfWorkManager unitOfWorkManager,
+            ISettingManager settingManager,
+            IUserManagementConfig userManagementConfig,
             IIocResolver iocResolver,
-            Abp.Runtime.Caching.ICacheManager cacheManager)
+            ICacheManager cacheManager,
+            IRepository<OrganizationUnit, long> organizationUnitRepository,
+            IRepository<UserOrganizationUnit, long> userOrganizationUnitRepository,
+            IOrganizationUnitSettings organizationUnitSettings,
+            IRepository<UserLoginAttempt, long> userLoginAttemptRepository)
             : base(
-                userStore, 
-                roleManager, 
-                tenantRepository, 
-                multiTenancyConfig, 
-                permissionManager, 
-                unitOfWorkManager, 
-                settingManager, 
-                userManagementConfig, 
+                store,
+                roleManager,
+                tenantRepository,
+                multiTenancyConfig,
+                permissionManager,
+                unitOfWorkManager,
+                settingManager,
+                userManagementConfig,
                 iocResolver,
-            cacheManager)
+                cacheManager,
+                organizationUnitRepository,
+                userOrganizationUnitRepository,
+                organizationUnitSettings,
+                userLoginAttemptRepository
+            )
         {
         }
     }
