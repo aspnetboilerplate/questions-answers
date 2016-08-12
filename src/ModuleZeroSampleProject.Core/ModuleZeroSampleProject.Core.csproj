@@ -94,6 +94,7 @@
     <Compile Include="Authorization\Role.cs" />
     <Compile Include="Authorization\RoleManager.cs" />
     <Compile Include="Authorization\RoleStore.cs" />
+    <Compile Include="Lookups\Lookup.cs" />
     <Compile Include="Questions\Answer.cs" />
     <Compile Include="Questions\Question.cs" />
     <Compile Include="ModuleZeroSampleProjectConsts.cs" />

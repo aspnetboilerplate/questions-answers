@@ -128,6 +128,8 @@
   <ItemGroup>
     <Compile Include="Authorization\ModuleZeroSampleProjectAuthorizationProvider.cs" />
     <Compile Include="Configuration\MySettingProvider.cs" />
+    <Compile Include="Lookups\LookupDto.cs" />
+    <Compile Include="Lookups\LookupService.cs" />
     <Compile Include="Questions\Dto\CreateQuestionInput.cs" />
     <Compile Include="Questions\Dto\AnswerDto.cs" />
     <Compile Include="Questions\Dto\GetQuestionsInput.cs" />

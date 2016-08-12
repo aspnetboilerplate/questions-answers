@@ -137,6 +137,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lookups\LookupService_Tests.cs" />
     <Compile Include="Questions\QuestionAppService_Tests.cs" />
     <Compile Include="SampleProjectTestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

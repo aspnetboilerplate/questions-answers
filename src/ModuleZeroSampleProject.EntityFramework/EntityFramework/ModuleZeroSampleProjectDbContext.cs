@@ -2,6 +2,7 @@
 using System.Data.Entity;
 using Abp.Zero.EntityFramework;
 using ModuleZeroSampleProject.Authorization;
+using ModuleZeroSampleProject.Lookups;
 using ModuleZeroSampleProject.MultiTenancy;
 using ModuleZeroSampleProject.Questions;
 using ModuleZeroSampleProject.Users;
@@ -16,6 +17,8 @@ namespace ModuleZeroSampleProject.EntityFramework
         public virtual IDbSet<Question> Questions { get; set; }
 
         public virtual IDbSet<Answer> Answers { get; set; }
+
+        public virtual IDbSet<Lookup> Lookups { get; set; }
 
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
