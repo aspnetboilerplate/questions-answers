@@ -3,7 +3,7 @@ using Abp.Application.Services.Dto;
 
 namespace ModuleZeroSampleProject.Questions.Dto
 {
-    public class SubmitAnswerInput : IInputDto
+    public class SubmitAnswerInput 
     {
         [Range(1, int.MaxValue)]
         public int QuestionId { get; set; }

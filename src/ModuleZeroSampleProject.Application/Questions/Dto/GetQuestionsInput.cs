@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Abp.Application.Services.Dto;
 using Abp.Extensions;
@@ -6,7 +7,7 @@ using Abp.Runtime.Validation;
 
 namespace ModuleZeroSampleProject.Questions.Dto
 {
-    public class GetQuestionsInput : IInputDto, IPagedResultRequest, ISortedResultRequest, ICustomValidate
+    public class GetQuestionsInput :  IPagedResultRequest, ISortedResultRequest, ICustomValidate
     {
         [Range(0, 1000)]
         public int MaxResultCount { get; set; }
@@ -14,7 +15,12 @@ namespace ModuleZeroSampleProject.Questions.Dto
         public int SkipCount { get; set; }
 
         public string Sorting { get; set; }
-        
+
+        public void AddValidationErrors(CustomValidationContext context)
+        {
+            throw new NotImplementedException();
+        }
+
         public void AddValidationErrors(List<ValidationResult> results)
         {
             var validSortingValues = new[] { "CreationTime DESC", "VoteCount DESC", "ViewCount DESC", "AnswerCount DESC" };

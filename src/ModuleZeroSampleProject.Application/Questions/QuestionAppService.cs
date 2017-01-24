@@ -37,7 +37,7 @@ namespace ModuleZeroSampleProject.Questions
             _unitOfWorkManager = unitOfWorkManager;
         }
 
-        public PagedResultOutput<QuestionDto> GetQuestions(GetQuestionsInput input)
+        public PagedResultDto<QuestionDto> GetQuestions(GetQuestionsInput input)
         {
             if (input.MaxResultCount <= 0)
             {
@@ -53,7 +53,7 @@ namespace ModuleZeroSampleProject.Questions
                     .PageBy(input)
                     .ToList();
 
-            return new PagedResultOutput<QuestionDto>
+            return new PagedResultDto<QuestionDto>
                    {
                        TotalCount = questionCount,
                        Items = questions.MapTo<List<QuestionDto>>()
@@ -92,14 +92,14 @@ namespace ModuleZeroSampleProject.Questions
                    };
         }
 
-        public VoteChangeOutput VoteUp(EntityRequestInput input)
+        public VoteChangeOutput VoteUp(EntityDto input)
         {
             var question = _questionRepository.Get(input.Id);
             question.VoteCount++;
             return new VoteChangeOutput(question.VoteCount);
         }
 
-        public VoteChangeOutput VoteDown(EntityRequestInput input)
+        public VoteChangeOutput VoteDown(EntityDto input)
         {
             var question = _questionRepository.Get(input.Id);
             question.VoteCount--;
@@ -110,7 +110,7 @@ namespace ModuleZeroSampleProject.Questions
         public SubmitAnswerOutput SubmitAnswer(SubmitAnswerInput input)
         {
             var question = _questionRepository.Get(input.QuestionId);
-            var currentUser = _userRepository.Get(CurrentSession.GetUserId());
+            var currentUser = _userRepository.Get(AbpSession.GetUserId());
 
             question.AnswerCount++;
 
@@ -129,7 +129,7 @@ namespace ModuleZeroSampleProject.Questions
                    };
         }
 
-        public void AcceptAnswer(EntityRequestInput input)
+        public void AcceptAnswer(EntityDto input)
         {
             var answer = _answerRepository.Get(input.Id);
             _questionDomainService.AcceptAnswer(answer);

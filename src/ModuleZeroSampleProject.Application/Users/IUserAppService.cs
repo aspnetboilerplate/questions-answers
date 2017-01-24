@@ -6,6 +6,6 @@ namespace ModuleZeroSampleProject.Users
 {
     public interface IUserAppService : IApplicationService
     {
-        ListResultOutput<UserDto> GetUsers();
+        ListResultDto<UserDto> GetUsers();
     }
 }

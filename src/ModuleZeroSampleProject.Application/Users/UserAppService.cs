@@ -16,9 +16,9 @@ namespace ModuleZeroSampleProject.Users
             _userManager = userManager;
         }
 
-        public ListResultOutput<UserDto> GetUsers()
+        public ListResultDto<UserDto> GetUsers()
         {
-            return new ListResultOutput<UserDto>
+            return new ListResultDto<UserDto>
                    {
                        Items = _userManager.Users.ToList().MapTo<List<UserDto>>()
                    };

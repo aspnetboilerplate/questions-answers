@@ -3,7 +3,7 @@ using Abp.Application.Services.Dto;
 
 namespace ModuleZeroSampleProject.Questions.Dto
 {
-    public class CreateQuestionInput : IInputDto
+    public class CreateQuestionInput 
     {
         [Required]
         public string Title { get; set; }

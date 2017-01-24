@@ -12,7 +12,7 @@ namespace ModuleZeroSampleProject.Authorization
             context.CreatePermission("CanCreateQuestions", new FixedLocalizableString("Can create questions"));
             context.CreatePermission("CanDeleteQuestions", new FixedLocalizableString("Can delete questions"));
             context.CreatePermission("CanDeleteAnswers", new FixedLocalizableString("Can delete answers"));
-            context.CreatePermission("CanAnswerToQuestions", new FixedLocalizableString("Can answer to questions"), isGrantedByDefault: true);
+            context.CreatePermission("CanAnswerToQuestions", new FixedLocalizableString("Can answer to questions"));
         }
     }
 }
