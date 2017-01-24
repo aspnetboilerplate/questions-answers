@@ -2,7 +2,7 @@
 
 namespace ModuleZeroSampleProject.Questions.Dto
 {
-    public class GetQuestionInput : EntityRequestInput
+    public class GetQuestionInput :EntityDto
     {
         public bool IncrementViewCount { get; set; }
     }

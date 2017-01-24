@@ -8,28 +8,26 @@ using Abp.Localization.Dictionaries;
 using Abp.Localization.Dictionaries.Xml;
 using Abp.Modules;
 using Abp.Web.Mvc;
+using Abp.Zero.Configuration;
 
 namespace ModuleZeroSampleProject.Web
 {
     [DependsOn(
-        typeof(ModuleZeroSampleProjectDataModule), 
+         typeof(ModuleZeroSampleProjectDataModule),
+        typeof(ModuleZeroSampleProjectApplicationModule),
         typeof(ModuleZeroSampleProjectWebApiModule),
         typeof(AbpWebMvcModule))]
     public class ModuleZeroSampleProjectWebModule : AbpModule
     {
         public override void PreInitialize()
         {
-            //Add/remove languages for your application
-            Configuration.Localization.Languages.Add(new LanguageInfo("en", "English", "famfamfam-flag-england", true));
-            Configuration.Localization.Languages.Add(new LanguageInfo("tr", "Türkçe", "famfamfam-flag-tr"));
 
-            //Add/remove localization sources here
-            Configuration.Localization.Sources.Add(new DictionaryBasedLocalizationSource(
-                ModuleZeroSampleProjectConsts.LocalizationSourceName,
-                new XmlFileLocalizationDictionaryProvider(
-                    HttpContext.Current.Server.MapPath("~/Localization/ModuleZeroSampleProject")
-                    )
-                ));
+            //Enable database based localization
+            Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();
+
+    
+
+
 
             //Configure navigation/menu
             Configuration.Navigation.Providers.Add<ModuleZeroSampleProjectNavigationProvider>();

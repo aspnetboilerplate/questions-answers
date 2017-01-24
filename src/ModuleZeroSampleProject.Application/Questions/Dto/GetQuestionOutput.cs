@@ -2,7 +2,7 @@
 
 namespace ModuleZeroSampleProject.Questions.Dto
 {
-    public class GetQuestionOutput : IOutputDto
+    public class GetQuestionOutput 
     {
         public QuestionWithAnswersDto Question { get; set; }
     }
