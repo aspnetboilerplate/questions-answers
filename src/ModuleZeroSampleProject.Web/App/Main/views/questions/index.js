@@ -6,7 +6,7 @@
             var vm = this;
 
             vm.permissions = {
-                canCreateQuestions: abp.auth.hasPermission("CanCreateQuestions")
+                canCreateQuestions: abp.auth.hasPermission("Pages.Questions.Create")
             };
 
             vm.sortingDirections = ['CreationTime DESC', 'VoteCount DESC', 'ViewCount DESC', 'AnswerCount DESC'];

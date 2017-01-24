@@ -17,18 +17,22 @@ namespace ModuleZeroSampleProject.Web
                 .AddItem(
                     new MenuItemDefinition(
                         "Questions",
-                        new LocalizableString("Questions", ModuleZeroSampleProjectConsts.LocalizationSourceName),
+                       L("Questions"),
                         url: "#/questions",
                         icon: "fa fa-question"
                         )
                 ).AddItem(
                     new MenuItemDefinition(
                         "Users",
-                        new LocalizableString("Users", ModuleZeroSampleProjectConsts.LocalizationSourceName),
+                       L("Users"),
                         url: "#/users",
                         icon: "fa fa-users"
                         )
                 );
+        }
+        private static ILocalizableString L(string name)
+        {
+            return new LocalizableString(name, ModuleZeroSampleProjectConsts.LocalizationSourceName);
         }
     }
 }

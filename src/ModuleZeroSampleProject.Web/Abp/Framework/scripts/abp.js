@@ -73,8 +73,9 @@
     abp.localization.values = {};
 
     abp.localization.localize = function (key, sourceName) {
+       
         sourceName = sourceName || abp.localization.defaultSourceName;
-
+     //   console.log(sourceName);
         var source = abp.localization.values[sourceName];
 
         if (!source) {

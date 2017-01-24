@@ -10,23 +10,21 @@ namespace ModuleZeroSampleProject.Authorization
         {
     
 
-            var pages = context.GetPermissionOrNull(PermissionNames.Pages);
+            var pages = context.GetPermissionOrNull(PermissionNames.Pages) ??
+                        context.CreatePermission(PermissionNames.Pages, L("Pages"));
 
-
-            if (pages == null)
-            {
-                pages = context.CreatePermission(PermissionNames.Pages, L("Pages"));
-            }
 
             var users = pages.CreateChildPermission(PermissionNames.Pages_Users, L("Users"));
-
+            pages.CreateChildPermission(PermissionNames.Pages_Questions_Create, L("Can_create_questions"));
+            pages.CreateChildPermission(PermissionNames.Pages_Answers_Delete, L("Can_delete_questions"));
+            pages.CreateChildPermission(PermissionNames.Pages_Questions_Delete, L("Can_delete_answers"));
+            pages.CreateChildPermission(PermissionNames.Pages_AnswerToQuestions, L("Can_answer_to_questions"));
             //Host permissions
             var tenants = pages.CreateChildPermission(PermissionNames.Pages_Tenants, L("Tenants"), multiTenancySides: MultiTenancySides.Host);
+        
 
-            pages.CreateChildPermission("CanCreateQuestions", new FixedLocalizableString("Can create questions"));
-            pages.CreateChildPermission("CanDeleteQuestions", new FixedLocalizableString("Can delete questions"));
-            pages.CreateChildPermission("CanDeleteAnswers", new FixedLocalizableString("Can delete answers"));
-            pages.CreateChildPermission("CanAnswerToQuestions", new FixedLocalizableString("Can answer to questions"));
+
+
         }
         private static ILocalizableString L(string name)
         {

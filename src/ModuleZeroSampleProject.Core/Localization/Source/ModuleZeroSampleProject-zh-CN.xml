@@ -20,6 +20,19 @@
     <text name="LogIn" value="登录" />
 
     <text name="LoginFailed" value="登录失败!" />
+
+    <text name="Questions" value="待解决问题" />
+    <text name="Users" value="用户列表" />
+    
+    <text name="Can_create_questions" value="添加问题" />
+    <text name="Can_delete_questions" value="删除问题" />
+    <text name="Can_delete_answers" value="删除回答" />
+    <text name="Can_answer_to_questions" value="选择为答案" />
+    
+    
+    
+    
+    
     
   </texts>
 </localizationDictionary>

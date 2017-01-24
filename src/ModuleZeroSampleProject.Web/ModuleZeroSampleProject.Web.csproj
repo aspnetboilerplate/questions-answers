@@ -573,8 +573,6 @@
     <Content Include="Icon.png" />
     <Content Include="js\Account\login.js" />
     <Content Include="js\main.js" />
-    <Content Include="Localization\ModuleZeroSampleProject\ModuleZeroSampleProject.tr.xml" />
-    <Content Include="Localization\ModuleZeroSampleProject\ModuleZeroSampleProject.xml" />
     <Content Include="App\Main\main.less" />
     <Content Include="App\Main\views\layout\layout.cshtml" />
     <Content Include="App\Main\views\questions\index.cshtml" />

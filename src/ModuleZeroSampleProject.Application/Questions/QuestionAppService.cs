@@ -13,6 +13,7 @@ using Abp.Domain.Uow;
 using Abp.Linq.Extensions;
 using Abp.Runtime.Session;
 using Abp.UI;
+using ModuleZeroSampleProject.Authorization;
 using ModuleZeroSampleProject.Configuration;
 using ModuleZeroSampleProject.Questions.Dto;
 using ModuleZeroSampleProject.Users;
@@ -60,7 +61,7 @@ namespace ModuleZeroSampleProject.Questions
                    };
         }
 
-        [AbpAuthorize("CanCreateQuestions")] //An example of permission checking
+        [AbpAuthorize(PermissionNames.Pages_Questions_Create)] //An example of permission checking
         public async Task CreateQuestion(CreateQuestionInput input)
         {
             await _questionRepository.InsertAsync(new Question(input.Title, input.Text));
@@ -106,7 +107,7 @@ namespace ModuleZeroSampleProject.Questions
             return new VoteChangeOutput(question.VoteCount);
         }
 
-        [AbpAuthorize("CanAnswerToQuestions")]
+        [AbpAuthorize(PermissionNames.Pages_AnswerToQuestions)]
         public SubmitAnswerOutput SubmitAnswer(SubmitAnswerInput input)
         {
             var question = _questionRepository.Get(input.QuestionId);
