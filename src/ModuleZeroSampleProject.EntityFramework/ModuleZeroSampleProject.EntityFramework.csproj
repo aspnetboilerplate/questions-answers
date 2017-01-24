@@ -164,8 +164,19 @@
     <Compile Include="Migrations\201607201129148_Upgrade_To_v0_10_1.Designer.cs">
       <DependentUpon>201607201129148_Upgrade_To_v0_10_1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701240428584_Upgrade_To_Abp_Zero_v1_1.cs" />
+    <Compile Include="Migrations\201701240428584_Upgrade_To_Abp_Zero_v1_1.Designer.cs">
+      <DependentUpon>201701240428584_Upgrade_To_Abp_Zero_v1_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\Data\DefaultEditionsCreator.cs" />
+    <Compile Include="Migrations\Data\DefaultLanguagesCreator.cs" />
+    <Compile Include="Migrations\Data\DefaultSettingsCreator.cs" />
+    <Compile Include="Migrations\Data\DefaultTenantCreator.cs" />
+    <Compile Include="Migrations\Data\HostRoleAndUserCreator.cs" />
     <Compile Include="Migrations\Data\InitialDataBuilder.cs" />
+    <Compile Include="Migrations\Data\InitialHostDbBuilder.cs" />
+    <Compile Include="Migrations\Data\TenantRoleAndUserBuilder.cs" />
     <Compile Include="ModuleZeroSampleProjectDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -212,6 +223,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201607201129148_Upgrade_To_v0_10_1.resx">
       <DependentUpon>201607201129148_Upgrade_To_v0_10_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701240428584_Upgrade_To_Abp_Zero_v1_1.resx">
+      <DependentUpon>201701240428584_Upgrade_To_Abp_Zero_v1_1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

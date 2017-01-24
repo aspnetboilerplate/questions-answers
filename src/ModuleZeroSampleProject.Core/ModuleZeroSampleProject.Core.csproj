@@ -97,10 +97,13 @@
     <Compile Include="Authorization\LogInManager.cs" />
     <Compile Include="Authorization\ModuleZeroSampleProjectAuthorizationProvider.cs" />
     <Compile Include="Authorization\PermissionChecker.cs" />
-    <Compile Include="Authorization\Role.cs" />
-    <Compile Include="Authorization\RoleManager.cs" />
-    <Compile Include="Authorization\RoleStore.cs" />
+    <Compile Include="Authorization\PermissionNames.cs" />
+    <Compile Include="Authorization\Roles\Role.cs" />
+    <Compile Include="Authorization\Roles\RoleManager.cs" />
+    <Compile Include="Authorization\Roles\RoleStore.cs" />
+    <Compile Include="Authorization\Roles\StaticRoleNames.cs" />
     <Compile Include="Editions\EditionManager.cs" />
+    <Compile Include="Features\FeatureValueStore.cs" />
     <Compile Include="MultiTenancy\TenantManager.cs" />
     <Compile Include="Questions\Answer.cs" />
     <Compile Include="Questions\Question.cs" />
@@ -117,7 +120,18 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Localization\Source\ModuleZeroSampleProject-es.xml" />
+    <Content Include="Localization\Source\ModuleZeroSampleProject-fr.xml" />
+    <Content Include="Localization\Source\ModuleZeroSampleProject-it.xml" />
+    <Content Include="Localization\Source\ModuleZeroSampleProject-ja.xml" />
+    <Content Include="Localization\Source\ModuleZeroSampleProject-lt.xml" />
+    <Content Include="Localization\Source\ModuleZeroSampleProject-nl-NL.xml" />
+    <Content Include="Localization\Source\ModuleZeroSampleProject-pt-BR.xml" />
+    <Content Include="Localization\Source\ModuleZeroSampleProject-tr.xml" />
+    <Content Include="Localization\Source\ModuleZeroSampleProject-zh-CN.xml" />
+    <Content Include="Localization\Source\ModuleZeroSampleProject.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -6,11 +6,10 @@ using Abp.Dependency;
 using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
 using Abp.Zero.Configuration;
-using ModuleZeroSampleProject.Authorization;
 using ModuleZeroSampleProject.MultiTenancy;
 using ModuleZeroSampleProject.Users;
- 
-namespace NWT.LED.Authorization
+
+namespace ModuleZeroSampleProject.Authorization
 {
     public class LogInManager : AbpLogInManager<Tenant, Role, User>
     {

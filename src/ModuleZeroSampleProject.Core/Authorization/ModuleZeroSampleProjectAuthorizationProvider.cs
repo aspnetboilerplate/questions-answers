@@ -1,5 +1,6 @@
 ﻿using Abp.Authorization;
 using Abp.Localization;
+using Abp.MultiTenancy;
 
 namespace ModuleZeroSampleProject.Authorization
 {
@@ -7,12 +8,29 @@ namespace ModuleZeroSampleProject.Authorization
     {
         public override void SetPermissions(IPermissionDefinitionContext context)
         {
-            //TODO: Localize (Change FixedLocalizableString to LocalizableString)
+    
 
-            context.CreatePermission("CanCreateQuestions", new FixedLocalizableString("Can create questions"));
-            context.CreatePermission("CanDeleteQuestions", new FixedLocalizableString("Can delete questions"));
-            context.CreatePermission("CanDeleteAnswers", new FixedLocalizableString("Can delete answers"));
-            context.CreatePermission("CanAnswerToQuestions", new FixedLocalizableString("Can answer to questions"));
+            var pages = context.GetPermissionOrNull(PermissionNames.Pages);
+
+
+            if (pages == null)
+            {
+                pages = context.CreatePermission(PermissionNames.Pages, L("Pages"));
+            }
+
+            var users = pages.CreateChildPermission(PermissionNames.Pages_Users, L("Users"));
+
+            //Host permissions
+            var tenants = pages.CreateChildPermission(PermissionNames.Pages_Tenants, L("Tenants"), multiTenancySides: MultiTenancySides.Host);
+
+            pages.CreateChildPermission("CanCreateQuestions", new FixedLocalizableString("Can create questions"));
+            pages.CreateChildPermission("CanDeleteQuestions", new FixedLocalizableString("Can delete questions"));
+            pages.CreateChildPermission("CanDeleteAnswers", new FixedLocalizableString("Can delete answers"));
+            pages.CreateChildPermission("CanAnswerToQuestions", new FixedLocalizableString("Can answer to questions"));
+        }
+        private static ILocalizableString L(string name)
+        {
+            return new LocalizableString(name, ModuleZeroSampleProjectConsts.LocalizationSourceName);
         }
     }
 }

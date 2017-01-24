@@ -7,7 +7,7 @@ using Abp.Runtime.Validation;
 
 namespace ModuleZeroSampleProject.Questions.Dto
 {
-    public class GetQuestionsInput :  IPagedResultRequest, ISortedResultRequest, ICustomValidate
+    public class GetQuestionsInput :  IPagedResultRequest, ISortedResultRequest
     {
         [Range(0, 1000)]
         public int MaxResultCount { get; set; }
@@ -16,19 +16,6 @@ namespace ModuleZeroSampleProject.Questions.Dto
 
         public string Sorting { get; set; }
 
-        public void AddValidationErrors(CustomValidationContext context)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void AddValidationErrors(List<ValidationResult> results)
-        {
-            var validSortingValues = new[] { "CreationTime DESC", "VoteCount DESC", "ViewCount DESC", "AnswerCount DESC" };
-
-            if (!Sorting.IsIn(validSortingValues))
-            {
-                results.Add(new ValidationResult("Sorting is not valid. Valid values: " + string.Join(", ", validSortingValues)));
-            }
-        }
+  
     }
 }
