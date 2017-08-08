@@ -41,11 +41,11 @@ namespace ModuleZeroSampleProject.Tests.Questions
             question.ShouldNotBe(null);
 
             //Vote up the question
-            var voteUpOutput = _questionAppService.VoteUp(new EntityRequestInput(question.Id));
+            var voteUpOutput = _questionAppService.VoteUp(new EntityDto(question.Id));
             voteUpOutput.VoteCount.ShouldBe(1);
 
             //Vote down the question
-            var voteDownOutput = _questionAppService.VoteDown(new EntityRequestInput(question.Id));
+            var voteDownOutput = _questionAppService.VoteDown(new EntityDto(question.Id));
             voteDownOutput.VoteCount.ShouldBe(0);
         }
 
