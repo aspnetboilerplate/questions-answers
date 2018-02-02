@@ -40,8 +40,8 @@ namespace ModuleZeroSampleProject.Web
 
                         "~/Scripts/modernizr-2.8.3.js",
 
-                        "~/Scripts/jquery-2.1.3.min.js",
-                        "~/Scripts/jquery-ui-1.11.4.min.js",
+                        "~/Scripts/jquery-3.3.1.min.js",
+                        "~/Scripts/jquery-ui-1.12.1.min.js",
 
                         "~/Scripts/bootstrap.min.js",
                         "~/bower_components/bootstrap-material-design/dist/css/ripples.min.js",
@@ -127,8 +127,8 @@ namespace ModuleZeroSampleProject.Web
                     .Include(
                         "~/Scripts/json2.min.js",
 
-                        "~/Scripts/jquery-2.1.3.min.js",
-                        "~/Scripts/jquery-ui-1.11.4.min.js",
+                        "~/Scripts/jquery-3.3.1.min.js",
+                        "~/Scripts/jquery-ui-1.12.1.min.js",
 
                         "~/Scripts/bootstrap.min.js",
                         "~/bower_components/bootstrap-material-design/dist/css/ripples.min.js",
