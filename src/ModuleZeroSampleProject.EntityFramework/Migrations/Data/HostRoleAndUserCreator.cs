@@ -72,6 +72,8 @@ namespace ModuleZeroSampleProject.Migrations.Data
                         TenantId = null
                     });
 
+                adminUserForHost.SetNormalizedNames();
+
                 _context.SaveChanges();
 
                 _context.UserRoles.Add(new UserRole(null, adminUserForHost.Id, adminRoleForHost.Id));

@@ -65,6 +65,7 @@ namespace ModuleZeroSampleProject.Migrations.Data
                 adminUser = User.CreateTenantAdminUser(_tenantId, "admin@defaulttenant.com", "123qwe");
                 adminUser.IsEmailConfirmed = true;
                 adminUser.IsActive = true;
+                adminUser.SetNormalizedNames();
 
                 _context.Users.Add(adminUser);
                 _context.SaveChanges();
