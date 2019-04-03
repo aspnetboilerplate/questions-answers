@@ -1,7 +1,8 @@
 ﻿using Abp.Authorization.Users;
 using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
-using ModuleZeroSampleProject.Authorization;
+using Abp.Organizations;
+using ModuleZeroSampleProject.Authorization.Roles;
 
 namespace ModuleZeroSampleProject.Users
 {
@@ -14,7 +15,9 @@ namespace ModuleZeroSampleProject.Users
         IRepository<Role> roleRepository,
         IRepository<UserPermissionSetting, long> userPermissionSettingRepository,
         IUnitOfWorkManager unitOfWorkManager,
-        IRepository<UserClaim, long> userClaimStore)
+        IRepository<UserClaim, long> userClaimStore,
+        IRepository<UserOrganizationUnit, long> userOrganizationUnitRepository,
+        IRepository<OrganizationUnitRole, long> organizationUnitRoleRepository)
         : base(
           userRepository,
           userLoginRepository,
@@ -22,7 +25,9 @@ namespace ModuleZeroSampleProject.Users
           roleRepository,
           userPermissionSettingRepository,
           unitOfWorkManager,
-          userClaimStore)
+          userClaimStore,
+          userOrganizationUnitRepository,
+          organizationUnitRoleRepository)
         {
         }
     }

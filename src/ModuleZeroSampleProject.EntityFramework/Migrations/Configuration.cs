@@ -1,10 +1,9 @@
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+using System;
+using System.Data.Entity.Validation;
 using Abp.MultiTenancy;
 using EntityFramework.DynamicFilters;
 using ModuleZeroSampleProject.EntityFramework;
 using ModuleZeroSampleProject.Migrations.Data;
-using ModuleZeroSampleProject.MultiTenancy;
 
 namespace ModuleZeroSampleProject.Migrations
 {
@@ -23,21 +22,38 @@ namespace ModuleZeroSampleProject.Migrations
         {
             context.DisableAllFilters();
 
-            if (Tenant == null)
+            try
             {
-                //Host seed
-                new InitialHostDbBuilder(context).Create();
+                if (Tenant == null)
+                {
+                    //Host seed
+                    new InitialHostDbBuilder(context).Create();
 
-                //Default tenant seed (in host database).
-                new DefaultTenantCreator(context).Create();
-                new TenantRoleAndUserBuilder(context, 1).Create();
+                    //Default tenant seed (in host database).
+                    new DefaultTenantCreator(context).Create();
+                    new TenantRoleAndUserBuilder(context, 1).Create();
+                }
+                else
+                {
+                    //You can add seed for tenant databases and use Tenant property...
+                }
+
+                context.SaveChanges();
             }
-            else
+            catch (DbEntityValidationException e)
             {
-                //You can add seed for tenant databases and use Tenant property...
+                foreach (var eve in e.EntityValidationErrors)
+                {
+                    Console.WriteLine("Entity of type \"{0}\" in state \"{1}\" has the following validation errors:",
+                        eve.Entry.Entity.GetType().Name, eve.Entry.State);
+                    foreach (var ve in eve.ValidationErrors)
+                    {
+                        Console.WriteLine("- Property: \"{0}\", Error: \"{1}\"",
+                            ve.PropertyName, ve.ErrorMessage);
+                    }
+                }
+                throw;
             }
-
-            context.SaveChanges();
         }
     }
 }

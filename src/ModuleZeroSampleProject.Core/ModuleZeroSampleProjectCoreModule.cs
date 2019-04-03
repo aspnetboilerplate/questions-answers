@@ -5,6 +5,7 @@ using Abp.Modules;
 using Abp.Zero;
 using Abp.Zero.Configuration;
 using ModuleZeroSampleProject.Authorization;
+using ModuleZeroSampleProject.Authorization.Roles;
 using ModuleZeroSampleProject.MultiTenancy;
 using ModuleZeroSampleProject.Users;
 

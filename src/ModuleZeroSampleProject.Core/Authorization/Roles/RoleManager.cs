@@ -1,11 +1,13 @@
 ﻿using Abp.Authorization;
 using Abp.Authorization.Roles;
+using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
+using Abp.Organizations;
 using Abp.Runtime.Caching;
 using Abp.Zero.Configuration;
 using ModuleZeroSampleProject.Users;
 
-namespace ModuleZeroSampleProject.Authorization
+namespace ModuleZeroSampleProject.Authorization.Roles
 {
     public class RoleManager : AbpRoleManager<Role, User>
     {
@@ -14,13 +16,17 @@ namespace ModuleZeroSampleProject.Authorization
             IPermissionManager permissionManager,
             IRoleManagementConfig roleManagementConfig,
             ICacheManager cacheManager,
-            IUnitOfWorkManager unitOfWorkManager)
+            IUnitOfWorkManager unitOfWorkManager,
+            IRepository<OrganizationUnit, long> organizationUnitRepository,
+            IRepository<OrganizationUnitRole, long> organizationUnitRoleRepository)
             : base(
                 store,
                 permissionManager,
                 roleManagementConfig,
                 cacheManager,
-                unitOfWorkManager)
+                unitOfWorkManager,
+                organizationUnitRepository,
+                organizationUnitRoleRepository)
         {
         }
     }
