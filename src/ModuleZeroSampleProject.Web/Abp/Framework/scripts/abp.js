@@ -21,6 +21,7 @@
     abp.multiTenancy = abp.multiTenancy || {};
 
     abp.multiTenancy.isEnabled = false;
+    abp.multiTenancy.ignoreFeatureCheckForHostUsers = false;
 
     abp.multiTenancy.sides = {
         TENANT: 1,
@@ -804,7 +805,7 @@
         }
 
         var now = function () {
-            return new Date();
+            return toUtc(new Date());
         };
 
         var normalize = function (date) {

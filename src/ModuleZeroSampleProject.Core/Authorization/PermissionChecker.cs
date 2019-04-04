@@ -1,4 +1,5 @@
 ﻿using Abp.Authorization;
+using ModuleZeroSampleProject.Authorization.Roles;
 using ModuleZeroSampleProject.Users;
 
 namespace ModuleZeroSampleProject.Authorization

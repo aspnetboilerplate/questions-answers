@@ -3,8 +3,8 @@ using Abp.Authorization;
 using Abp.Authorization.Roles;
 using Abp.Authorization.Users;
 using Abp.MultiTenancy;
-using Microsoft.AspNet.Identity;
 using ModuleZeroSampleProject.Authorization;
+using ModuleZeroSampleProject.Authorization.Roles;
 using ModuleZeroSampleProject.EntityFramework;
 using ModuleZeroSampleProject.Users;
 
@@ -31,7 +31,7 @@ namespace ModuleZeroSampleProject.Migrations.Data
             var adminRoleForHost = _context.Roles.FirstOrDefault(r => r.TenantId == null && r.Name == StaticRoleNames.Host.Admin);
             if (adminRoleForHost == null)
             {
-                adminRoleForHost = _context.Roles.Add(new Role { Name = StaticRoleNames.Host.Admin, DisplayName = StaticRoleNames.Host.Admin, IsStatic = true });
+                adminRoleForHost = _context.Roles.Add(new Role(null, StaticRoleNames.Host.Admin, StaticRoleNames.Host.Admin) { IsStatic = true, IsDefault = true });
                 _context.SaveChanges();
 
                 //Grant all tenant permissions
@@ -62,13 +62,17 @@ namespace ModuleZeroSampleProject.Migrations.Data
                 adminUserForHost = _context.Users.Add(
                     new User
                     {
-                        UserName = User.AdminUserName,
+                        UserName = AbpUserBase.AdminUserName,
                         Name = "System",
                         Surname = "Administrator",
                         EmailAddress = "admin@aspnetboilerplate.com",
                         IsEmailConfirmed = true,
-                        Password = new PasswordHasher().HashPassword(User.DefaultPassword)
+                        Password = "AM4OLBpptxBYmM79lGOX9egzZk3vIQU3d/gFCJzaBjAPXzYIK3tQ2N7X4fcrHtElTw==", //123qwe
+                        IsActive = true,
+                        TenantId = null
                     });
+
+                adminUserForHost.SetNormalizedNames();
 
                 _context.SaveChanges();
 

@@ -11,6 +11,7 @@ using Abp.Organizations;
 using Abp.Runtime.Caching;
 using Abp.Zero.Configuration;
 using ModuleZeroSampleProject.Authorization;
+using ModuleZeroSampleProject.Authorization.Roles;
 using ModuleZeroSampleProject.MultiTenancy;
 
 namespace ModuleZeroSampleProject.Users

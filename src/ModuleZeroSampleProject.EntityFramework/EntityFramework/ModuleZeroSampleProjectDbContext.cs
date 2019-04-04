@@ -2,6 +2,7 @@
 using System.Data.Entity;
 using Abp.Zero.EntityFramework;
 using ModuleZeroSampleProject.Authorization;
+using ModuleZeroSampleProject.Authorization.Roles;
 using ModuleZeroSampleProject.MultiTenancy;
 using ModuleZeroSampleProject.Questions;
 using ModuleZeroSampleProject.Users;

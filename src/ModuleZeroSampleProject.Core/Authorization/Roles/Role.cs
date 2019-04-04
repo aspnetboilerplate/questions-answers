@@ -1,7 +1,7 @@
 ﻿using Abp.Authorization.Roles;
 using ModuleZeroSampleProject.Users;
 
-namespace ModuleZeroSampleProject.Authorization
+namespace ModuleZeroSampleProject.Authorization.Roles
 {
     public class Role : AbpRole<User>
     {

@@ -4,6 +4,7 @@ using Abp.Authorization.Roles;
 using Abp.Authorization.Users;
 using Abp.MultiTenancy;
 using ModuleZeroSampleProject.Authorization;
+using ModuleZeroSampleProject.Authorization.Roles;
 using ModuleZeroSampleProject.EntityFramework;
 using ModuleZeroSampleProject.Users;
 
@@ -58,12 +59,13 @@ namespace ModuleZeroSampleProject.Migrations.Data
 
             //admin user
 
-            var adminUser = _context.Users.FirstOrDefault(u => u.TenantId == _tenantId && u.UserName == User.AdminUserName);
+            var adminUser = _context.Users.FirstOrDefault(u => u.TenantId == _tenantId && u.UserName == AbpUserBase.AdminUserName);
             if (adminUser == null)
             {
                 adminUser = User.CreateTenantAdminUser(_tenantId, "admin@defaulttenant.com", "123qwe");
                 adminUser.IsEmailConfirmed = true;
                 adminUser.IsActive = true;
+                adminUser.SetNormalizedNames();
 
                 _context.Users.Add(adminUser);
                 _context.SaveChanges();

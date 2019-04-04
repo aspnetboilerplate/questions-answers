@@ -12,6 +12,7 @@ using Abp.Web.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 using ModuleZeroSampleProject.Authorization;
+using ModuleZeroSampleProject.Authorization.Roles;
 using ModuleZeroSampleProject.MultiTenancy;
 using ModuleZeroSampleProject.Users;
 using ModuleZeroSampleProject.Web.Models.Account;

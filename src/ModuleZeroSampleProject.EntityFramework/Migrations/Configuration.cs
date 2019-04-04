@@ -1,10 +1,7 @@
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using Abp.MultiTenancy;
 using EntityFramework.DynamicFilters;
 using ModuleZeroSampleProject.EntityFramework;
 using ModuleZeroSampleProject.Migrations.Data;
-using ModuleZeroSampleProject.MultiTenancy;
 
 namespace ModuleZeroSampleProject.Migrations
 {

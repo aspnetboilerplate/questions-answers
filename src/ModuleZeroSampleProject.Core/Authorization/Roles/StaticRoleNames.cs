@@ -1,4 +1,4 @@
-namespace ModuleZeroSampleProject.Authorization
+namespace ModuleZeroSampleProject.Authorization.Roles
 {
     public static class StaticRoleNames
     {
