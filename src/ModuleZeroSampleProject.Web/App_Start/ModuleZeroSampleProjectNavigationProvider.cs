@@ -17,17 +17,17 @@ namespace ModuleZeroSampleProject.Web
                 .AddItem(
                     new MenuItemDefinition(
                         "Questions",
-                       L("Questions"),
+                        L("Questions"),
                         url: "#/questions",
                         icon: "fa fa-question"
-                        )
+                    )
                 ).AddItem(
                     new MenuItemDefinition(
                         "Users",
-                       L("Users"),
+                        L("Users"),
                         url: "#/users",
                         icon: "fa fa-users"
-                        )
+                    )
                 );
         }
         private static ILocalizableString L(string name)
