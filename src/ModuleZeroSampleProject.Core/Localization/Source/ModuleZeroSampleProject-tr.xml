@@ -53,5 +53,7 @@
     <text name="Yes" value="Evet" />
     <text name="No" value="Hayır" />
     <text name="Optional" value="Opsiyonel" />
+
+    <text name="Questions" value="Sorular" />
   </texts>
 </localizationDictionary>

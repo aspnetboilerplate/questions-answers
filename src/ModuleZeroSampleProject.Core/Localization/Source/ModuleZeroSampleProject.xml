@@ -54,17 +54,6 @@
     <text name="No" value="No" />
     <text name="Optional" value="Optional" />
 
-
-
-
-
-
-
-
-
     <text name="Questions" value="Questions" />
-    <text name="Users" value="Users" />
-    
-    
   </texts>
 </localizationDictionary>
