@@ -30,6 +30,7 @@ namespace ModuleZeroSampleProject.Web
                     )
                 );
         }
+
         private static ILocalizableString L(string name)
         {
             return new LocalizableString(name, ModuleZeroSampleProjectConsts.LocalizationSourceName);
