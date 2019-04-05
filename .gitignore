@@ -196,6 +196,4 @@ FakesAssemblies/
 *.opt
 
 !Nuget.exe
-src/ModuleZeroSampleProject.Web/Logs/Logs.txt
-src/ModuleZeroSampleProject.Web/Logs/Logs.txt
-src/ModuleZeroSampleProject.Web/Logs/Logs.txt
+/src/ModuleZeroSampleProject.Web/Logs
