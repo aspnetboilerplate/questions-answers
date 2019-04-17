@@ -197,3 +197,4 @@ FakesAssemblies/
 
 !Nuget.exe
 /src/ModuleZeroSampleProject.Web/Logs
+src/migrate.exe

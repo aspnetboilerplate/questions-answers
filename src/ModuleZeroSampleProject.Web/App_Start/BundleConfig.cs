@@ -16,8 +16,6 @@ namespace ModuleZeroSampleProject.Web
             bundles.Add(
                 new StyleBundle("~/Bundles/App/vendor/css")
                     .Include(
-                        "~/Content/themes/base/all.css",
-
                         "~/Content/bootstrap.min.css",
 
                         "~/bower_components/bootstrap-material-design/dist/css/ripples.min.css",
@@ -25,10 +23,11 @@ namespace ModuleZeroSampleProject.Web
                         "~/bower_components/angular-material/angular-material.min.css",
                         "~/bower_components/angular-material/themes/blue-theme.css",
 
-                        "~/Content/toastr.min.css",
-                        "~/Content/flags/famfamfam-flags.css",
-                        "~/Content/font-awesome.min.css"
+                        "~/Content/toastr.min.css"
                     )
+                    .Include(StylePaths.FontAwesome, new CssRewriteUrlWithVirtualDirectoryTransform())
+                    .Include(StylePaths.ThemeAll, new CssRewriteUrlWithVirtualDirectoryTransform())
+                    .Include(StylePaths.FamFamFam, new CssRewriteUrlWithVirtualDirectoryTransform())
                 );
 
             //~/Bundles/App/vendor/js
@@ -100,16 +99,15 @@ namespace ModuleZeroSampleProject.Web
             bundles.Add(
                 new StyleBundle("~/Bundles/vendor/css")
                     .Include(
-                        "~/Content/themes/base/all.css",
-
                         "~/Content/bootstrap.min.css",
                         "~/bower_components/bootstrap-material-design/dist/css/ripples.min.css",
                         "~/bower_components/bootstrap-material-design/dist/css/material-wfont.min.css",
 
-                        "~/Content/toastr.min.css",
-                        "~/Content/flags/famfamfam-flags.css",
-                        "~/Content/font-awesome.min.css"
+                        "~/Content/toastr.min.css"
                     )
+                    .Include(StylePaths.FontAwesome, new CssRewriteUrlWithVirtualDirectoryTransform())
+                    .Include(StylePaths.ThemeAll, new CssRewriteUrlWithVirtualDirectoryTransform())
+                    .Include(StylePaths.FamFamFam, new CssRewriteUrlWithVirtualDirectoryTransform())
                 );
 
             //~/Bundles/vendor/js/top (These scripts should be included in the head of the page)
