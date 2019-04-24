@@ -4,10 +4,11 @@ http://qasample.aspnetboilerplate.com/
 
 To run the sample:
 
-- Open it in VS2013
-- Check connection string in web.config and change if you want to.
-- Run DB migrations (Run 'Update-Database' command from Package Manager Console while ModuleZeroSampleProject.EntityFramework is selected as default project) to create database and initial data.
-- Run the application! You will see the login form:
+- Open the solution with Visual Studio.
+- Set `ModuleZeroSampleProject.Web` as your startup project.
+- Check the connection string in Web.config and change if necessary.
+- Run database migrations: Run 'Update-Database' command from Package Manager Console while ModuleZeroSampleProject.EntityFramework is selected as default project. This creates database and populates initial data.
+- Run the application! That's it. 
  
 ![alt login form](https://raw.githubusercontent.com/aspnetboilerplate/questions-answers/master/doc/login-form.png)
 
