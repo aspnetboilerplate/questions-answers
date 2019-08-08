@@ -26,16 +26,18 @@ namespace ModuleZeroSampleProject.Questions
         private readonly IRepository<Question> _questionRepository;
         private readonly IRepository<Answer> _answerRepository;
         private readonly IRepository<User, long> _userRepository;
+        private readonly IRepository<Vote, long> _voteRepository;
         private readonly QuestionDomainService _questionDomainService;
         private readonly IUnitOfWorkManager _unitOfWorkManager;
 
-        public QuestionAppService(IRepository<Question> questionRepository, IRepository<Answer> answerRepository, IRepository<User, long> userRepository, QuestionDomainService questionDomainService, IUnitOfWorkManager unitOfWorkManager)
+        public QuestionAppService(IRepository<Question> questionRepository, IRepository<Answer> answerRepository, IRepository<User, long> userRepository, QuestionDomainService questionDomainService, IUnitOfWorkManager unitOfWorkManager, IRepository<Vote, long> voteRepository)
         {
             _questionRepository = questionRepository;
             _answerRepository = answerRepository;
             _userRepository = userRepository;
             _questionDomainService = questionDomainService;
             _unitOfWorkManager = unitOfWorkManager;
+            _voteRepository = voteRepository;
         }
 
         public PagedResultDto<QuestionDto> GetQuestions(GetQuestionsInput input)
@@ -95,15 +97,48 @@ namespace ModuleZeroSampleProject.Questions
 
         public VoteChangeOutput VoteUp(EntityDto input)
         {
+            var voterId = AbpSession.UserId;
+            var vote = _voteRepository.GetAll()
+                .Where(v => v.UserId == voterId && v.QuestionId == input.Id).FirstOrDefault();
             var question = _questionRepository.Get(input.Id);
+
+            if (vote != null)
+            {
+                if (!vote.UpVote)
+                {
+                    question.VoteCount++;
+                }
+                return new VoteChangeOutput(question.VoteCount);
+            }
+
+            _voteRepository.Insert(new Vote
+            {
+                UpVote = true,
+                QuestionId = question.Id,
+                UserId = voterId.Value
+            }) ;
+
             question.VoteCount++;
+            _unitOfWorkManager.Current.SaveChanges();
             return new VoteChangeOutput(question.VoteCount);
         }
 
         public VoteChangeOutput VoteDown(EntityDto input)
         {
+            var voterId = AbpSession.UserId;
+            var vote = _voteRepository.GetAll()
+                .Where(v => v.UserId == voterId && v.QuestionId == input.Id).FirstOrDefault();
             var question = _questionRepository.Get(input.Id);
-            question.VoteCount--;
+
+            if (vote != null)
+            {
+                if (vote.UpVote)
+                {
+                    vote.UpVote = false;
+                    question.VoteCount --;
+                }
+            }
+
             return new VoteChangeOutput(question.VoteCount);
         }
 
