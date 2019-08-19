@@ -57,10 +57,10 @@ namespace ModuleZeroSampleProject.Questions
                     .ToList();
 
             return new PagedResultDto<QuestionDto>
-                   {
-                       TotalCount = questionCount,
-                       Items = questions.MapTo<List<QuestionDto>>()
-                   };
+            {
+                TotalCount = questionCount,
+                Items = questions.MapTo<List<QuestionDto>>()
+            };
         }
 
         [AbpAuthorize(PermissionNames.Pages_Questions_Create)] //An example of permission checking
@@ -90,55 +90,45 @@ namespace ModuleZeroSampleProject.Questions
             }
 
             return new GetQuestionOutput
-                   {
-                       Question = question.MapTo<QuestionWithAnswersDto>()
-                   };
+            {
+                Question = question.MapTo<QuestionWithAnswersDto>()
+            };
         }
 
         public VoteChangeOutput VoteUp(EntityDto input)
         {
-            var voterId = AbpSession.UserId;
-            var vote = _voteRepository.GetAll()
-                .Where(v => v.UserId == voterId && v.QuestionId == input.Id).FirstOrDefault();
-            var question = _questionRepository.Get(input.Id);
-
-            if (vote != null)
-            {
-                if (!vote.UpVote)
-                {
-                    question.VoteCount++;
-                }
-                return new VoteChangeOutput(question.VoteCount);
-            }
-
-            _voteRepository.Insert(new Vote
-            {
-                UpVote = true,
-                QuestionId = question.Id,
-                UserId = voterId.Value
-            }) ;
-
-            question.VoteCount++;
-            _unitOfWorkManager.Current.SaveChanges();
-            return new VoteChangeOutput(question.VoteCount);
+            return Vote(input.Id, true);
         }
 
         public VoteChangeOutput VoteDown(EntityDto input)
         {
+            return Vote(input.Id, false);
+        }
+
+        private VoteChangeOutput Vote(int id, bool voteUp)
+        {
             var voterId = AbpSession.UserId;
-            var vote = _voteRepository.GetAll()
-                .Where(v => v.UserId == voterId && v.QuestionId == input.Id).FirstOrDefault();
-            var question = _questionRepository.Get(input.Id);
+            var vote = _voteRepository.GetAll().FirstOrDefault(v => v.UserId == voterId && v.QuestionId == id);
+            var question = _questionRepository.Get(id);
 
             if (vote != null)
             {
-                if (vote.UpVote)
+                if (vote.UpVote != voteUp)
                 {
-                    vote.UpVote = false;
-                    question.VoteCount --;
+                    //this undo vote which delete previous vote
+                    _voteRepository.Delete(vote);
+                    question.VoteCount += (voteUp ? 1 : -1);
                 }
+                return new VoteChangeOutput(question.VoteCount);
             }
+            _voteRepository.Insert(new Vote
+            {
+                UpVote = voteUp,
+                QuestionId = question.Id,
+                UserId = voterId.Value
+            });
 
+            question.VoteCount += (voteUp ? 1 : -1);
             return new VoteChangeOutput(question.VoteCount);
         }
 
@@ -160,9 +150,9 @@ namespace ModuleZeroSampleProject.Questions
             _unitOfWorkManager.Current.SaveChanges();
 
             return new SubmitAnswerOutput
-                   {
-                       Answer = answer.MapTo<AnswerDto>()
-                   };
+            {
+                Answer = answer.MapTo<AnswerDto>()
+            };
         }
 
         public void AcceptAnswer(EntityDto input)
