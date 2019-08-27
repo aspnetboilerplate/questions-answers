@@ -108,8 +108,7 @@ namespace ModuleZeroSampleProject.Questions
         private VoteChangeOutput Vote(int id, bool voteUp)
         {
             var question = _questionRepository.Get(id);
-            var isTrue = SettingManager.GetSettingValue(MySettingProvider.AllowMultipleVote);
-            if (SettingManager.GetSettingValue(MySettingProvider.AllowMultipleVote) == "false")
+            if (SettingManager.GetSettingValue<bool>(MySettingProvider.AllowMultipleVote))
             {
                 var voterId = AbpSession.UserId;
                 var vote = _voteRepository.GetAll().FirstOrDefault(v => v.UserId == voterId && v.QuestionId == id);
@@ -118,7 +117,7 @@ namespace ModuleZeroSampleProject.Questions
                 {
                     if (vote.UpVote != voteUp)
                     {
-                        //this undo vote which delete previous vote
+                        //this is undo vote which delete previous vote
                         _voteRepository.Delete(vote);
                         question.VoteCount += (voteUp ? 1 : -1);
                     }
