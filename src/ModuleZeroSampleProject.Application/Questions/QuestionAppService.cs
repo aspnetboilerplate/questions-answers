@@ -107,27 +107,30 @@ namespace ModuleZeroSampleProject.Questions
 
         private VoteChangeOutput Vote(int id, bool voteUp)
         {
-            var voterId = AbpSession.UserId;
-            var vote = _voteRepository.GetAll().FirstOrDefault(v => v.UserId == voterId && v.QuestionId == id);
             var question = _questionRepository.Get(id);
-
-            if (vote != null)
+            var isTrue = SettingManager.GetSettingValue(MySettingProvider.AllowMultipleVote);
+            if (SettingManager.GetSettingValue(MySettingProvider.AllowMultipleVote) == "false")
             {
-                if (vote.UpVote != voteUp)
+                var voterId = AbpSession.UserId;
+                var vote = _voteRepository.GetAll().FirstOrDefault(v => v.UserId == voterId && v.QuestionId == id);
+
+                if (vote != null)
                 {
-                    //this undo vote which delete previous vote
-                    _voteRepository.Delete(vote);
-                    question.VoteCount += (voteUp ? 1 : -1);
+                    if (vote.UpVote != voteUp)
+                    {
+                        //this undo vote which delete previous vote
+                        _voteRepository.Delete(vote);
+                        question.VoteCount += (voteUp ? 1 : -1);
+                    }
+                    return new VoteChangeOutput(question.VoteCount);
                 }
-                return new VoteChangeOutput(question.VoteCount);
+                _voteRepository.Insert(new Vote
+                {
+                    UpVote = voteUp,
+                    QuestionId = question.Id,
+                    UserId = voterId.Value
+                });
             }
-            _voteRepository.Insert(new Vote
-            {
-                UpVote = voteUp,
-                QuestionId = question.Id,
-                UserId = voterId.Value
-            });
-
             question.VoteCount += (voteUp ? 1 : -1);
             return new VoteChangeOutput(question.VoteCount);
         }
