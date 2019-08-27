@@ -108,7 +108,7 @@ namespace ModuleZeroSampleProject.Questions
         private VoteChangeOutput Vote(int id, bool voteUp)
         {
             var question = _questionRepository.Get(id);
-            if (SettingManager.GetSettingValue<bool>(MySettingProvider.AllowMultipleVote))
+            if (!SettingManager.GetSettingValue<bool>(MySettingProvider.AllowMultipleVote))
             {
                 var voterId = AbpSession.UserId;
                 var vote = _voteRepository.GetAll().FirstOrDefault(v => v.UserId == voterId && v.QuestionId == id);

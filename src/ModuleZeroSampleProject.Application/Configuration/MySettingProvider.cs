@@ -13,7 +13,7 @@ namespace ModuleZeroSampleProject.Configuration
             return new[]
                    {
                        new SettingDefinition(QuestionsDefaultPageSize, "10"),
-                       new SettingDefinition(AllowMultipleVote, "false")
+                       new SettingDefinition(AllowMultipleVote, "true")
                    };
         }
     }
