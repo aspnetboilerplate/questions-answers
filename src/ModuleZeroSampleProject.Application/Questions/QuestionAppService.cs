@@ -26,16 +26,18 @@ namespace ModuleZeroSampleProject.Questions
         private readonly IRepository<Question> _questionRepository;
         private readonly IRepository<Answer> _answerRepository;
         private readonly IRepository<User, long> _userRepository;
+        private readonly IRepository<Vote, long> _voteRepository;
         private readonly QuestionDomainService _questionDomainService;
         private readonly IUnitOfWorkManager _unitOfWorkManager;
 
-        public QuestionAppService(IRepository<Question> questionRepository, IRepository<Answer> answerRepository, IRepository<User, long> userRepository, QuestionDomainService questionDomainService, IUnitOfWorkManager unitOfWorkManager)
+        public QuestionAppService(IRepository<Question> questionRepository, IRepository<Answer> answerRepository, IRepository<User, long> userRepository, QuestionDomainService questionDomainService, IUnitOfWorkManager unitOfWorkManager, IRepository<Vote, long> voteRepository)
         {
             _questionRepository = questionRepository;
             _answerRepository = answerRepository;
             _userRepository = userRepository;
             _questionDomainService = questionDomainService;
             _unitOfWorkManager = unitOfWorkManager;
+            _voteRepository = voteRepository;
         }
 
         public PagedResultDto<QuestionDto> GetQuestions(GetQuestionsInput input)
@@ -55,10 +57,10 @@ namespace ModuleZeroSampleProject.Questions
                     .ToList();
 
             return new PagedResultDto<QuestionDto>
-                   {
-                       TotalCount = questionCount,
-                       Items = questions.MapTo<List<QuestionDto>>()
-                   };
+            {
+                TotalCount = questionCount,
+                Items = questions.MapTo<List<QuestionDto>>()
+            };
         }
 
         [AbpAuthorize(PermissionNames.Pages_Questions_Create)] //An example of permission checking
@@ -88,22 +90,47 @@ namespace ModuleZeroSampleProject.Questions
             }
 
             return new GetQuestionOutput
-                   {
-                       Question = question.MapTo<QuestionWithAnswersDto>()
-                   };
+            {
+                Question = question.MapTo<QuestionWithAnswersDto>()
+            };
         }
 
         public VoteChangeOutput VoteUp(EntityDto input)
         {
-            var question = _questionRepository.Get(input.Id);
-            question.VoteCount++;
-            return new VoteChangeOutput(question.VoteCount);
+            return Vote(input.Id, true);
         }
 
         public VoteChangeOutput VoteDown(EntityDto input)
         {
-            var question = _questionRepository.Get(input.Id);
-            question.VoteCount--;
+            return Vote(input.Id, false);
+        }
+
+        private VoteChangeOutput Vote(int id, bool voteUp)
+        {
+            var question = _questionRepository.Get(id);
+            if (SettingManager.GetSettingValue<bool>(MySettingProvider.AllowMultipleVote))
+            {
+                var voterId = AbpSession.UserId;
+                var vote = _voteRepository.GetAll().FirstOrDefault(v => v.UserId == voterId && v.QuestionId == id);
+
+                if (vote != null)
+                {
+                    if (vote.UpVote != voteUp)
+                    {
+                        //this is undo vote which delete previous vote
+                        _voteRepository.Delete(vote);
+                        question.VoteCount += (voteUp ? 1 : -1);
+                    }
+                    return new VoteChangeOutput(question.VoteCount);
+                }
+                _voteRepository.Insert(new Vote
+                {
+                    UpVote = voteUp,
+                    QuestionId = question.Id,
+                    UserId = voterId.Value
+                });
+            }
+            question.VoteCount += (voteUp ? 1 : -1);
             return new VoteChangeOutput(question.VoteCount);
         }
 
@@ -125,9 +152,9 @@ namespace ModuleZeroSampleProject.Questions
             _unitOfWorkManager.Current.SaveChanges();
 
             return new SubmitAnswerOutput
-                   {
-                       Answer = answer.MapTo<AnswerDto>()
-                   };
+            {
+                Answer = answer.MapTo<AnswerDto>()
+            };
         }
 
         public void AcceptAnswer(EntityDto input)

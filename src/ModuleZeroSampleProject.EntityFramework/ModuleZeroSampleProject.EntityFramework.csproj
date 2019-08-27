@@ -226,6 +226,10 @@
     <Compile Include="Migrations\201904030902541_InitialMigration.Designer.cs">
       <DependentUpon>201904030902541_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908080219180_addVoteTable.cs" />
+    <Compile Include="Migrations\201908080219180_addVoteTable.Designer.cs">
+      <DependentUpon>201908080219180_addVoteTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Data\DefaultEditionsCreator.cs" />
     <Compile Include="Migrations\Data\DefaultLanguagesCreator.cs" />
@@ -251,6 +255,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201904030902541_InitialMigration.resx">
       <DependentUpon>201904030902541_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908080219180_addVoteTable.resx">
+      <DependentUpon>201908080219180_addVoteTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

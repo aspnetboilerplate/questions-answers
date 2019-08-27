@@ -220,6 +220,7 @@
     <Compile Include="MultiTenancy\Tenant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Questions\QuestionDomainService.cs" />
+    <Compile Include="Questions\Vote.cs" />
     <Compile Include="Users\UserManager.cs" />
     <Compile Include="Users\UserStore.cs" />
     <Compile Include="Users\User.cs" />
