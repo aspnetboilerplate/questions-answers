@@ -1,2 +1,2 @@
-**/ModuleZeroSampleProject.Web/Scripts/** linguist-vendored
-**/Abp/Framework/scripts/** linguist-vendored
+**/wwwroot/lib/** linguist-vendored
+**/wwwroot/css/** linguist-vendored

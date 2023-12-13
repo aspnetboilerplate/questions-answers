@@ -1,0 +1,1209 @@
+INFO  2023-12-13 11:04:17,415 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:04:22,473 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:04:27,512 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:04:32,531 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:04:37,562 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:04:42,594 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:04:47,636 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:04:52,669 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:04:57,686 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:02,707 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:07,730 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:12,745 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:17,766 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:22,781 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:27,810 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:32,822 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:37,844 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:42,859 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:47,871 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:52,890 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:05:57,909 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:02,949 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:07,963 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:12,981 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:18,001 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:23,020 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:28,039 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:33,055 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:38,076 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:43,092 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:48,095 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:53,212 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (27ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:06:58,235 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:03,252 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:08,272 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:13,293 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:18,312 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:23,325 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:28,342 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:33,361 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:38,381 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:43,391 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:48,415 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:53,429 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:07:58,441 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:03,458 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:08,471 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:13,486 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:18,512 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:23,523 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:28,543 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:31,769 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/AbpUserConfiguration/GetAll - - -
+INFO  2023-12-13 11:08:31,774 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:31,780 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/AbpUserConfiguration/GetAll - 204 - - 11.2139ms
+INFO  2023-12-13 11:08:31,784 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AbpUserConfiguration/GetAll - - -
+INFO  2023-12-13 11:08:31,789 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:31,795 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2023-12-13 11:08:31,812 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2023-12-13 11:08:31,830 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-12-13 11:08:31,839 [orker] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:08:31,846 [orker] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 28.43ms
+INFO  2023-12-13 11:08:31,850 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2023-12-13 11:08:31,856 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AbpUserConfiguration/GetAll - 200 - application/json;+charset=utf-8 71.3021ms
+INFO  2023-12-13 11:08:31,874 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Session/GetCurrentLoginInformations - - -
+INFO  2023-12-13 11:08:31,881 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:31,888 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Session/GetCurrentLoginInformations - 204 - - 12.2419ms
+INFO  2023-12-13 11:08:31,895 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Session/GetCurrentLoginInformations - - -
+INFO  2023-12-13 11:08:31,901 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:31,912 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'QuestionsAnswers.Sessions.SessionAppService.GetCurrentLoginInformations (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:31,920 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuestionsAnswers.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller QuestionsAnswers.Sessions.SessionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:08:31,938 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[Id] = @__p_0
+INFO  2023-12-13 11:08:31,948 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:08:31,955 [orker] c.Infrastructure.ControllerActionInvoker - Executed action QuestionsAnswers.Sessions.SessionAppService.GetCurrentLoginInformations (QuestionsAnswers.Application) in 28.6992ms
+INFO  2023-12-13 11:08:31,960 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'QuestionsAnswers.Sessions.SessionAppService.GetCurrentLoginInformations (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:31,967 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Session/GetCurrentLoginInformations - 200 325 application/json;+charset=utf-8 72.5403ms
+INFO  2023-12-13 11:08:32,225 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestions?MaxResultCount=0&SkipCount=0&Sorting=CreationTime%20DESC - - -
+INFO  2023-12-13 11:08:32,232 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:32,239 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestions?MaxResultCount=0&SkipCount=0&Sorting=CreationTime%20DESC - 204 - - 14.2543ms
+INFO  2023-12-13 11:08:32,245 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestions?MaxResultCount=0&SkipCount=0&Sorting=CreationTime%20DESC - - -
+INFO  2023-12-13 11:08:32,252 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:32,259 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestions (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:32,268 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetQuestions", controller = "Question"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[ModuleZeroSampleProject.Questions.Dto.QuestionDto] GetQuestions(ModuleZeroSampleProject.Questions.Dto.GetQuestionsInput) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:08:32,281 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Questions] AS [q]
+INFO  2023-12-13 11:08:32,335 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (37ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AnswerCount], [t].[CreationTime], [t].[CreatorUserId], [t].[Text], [t].[Title], [t].[ViewCount], [t].[VoteCount], [t0].[Id], [t0].[AccessFailedCount], [t0].[AuthenticationSource], [t0].[ConcurrencyStamp], [t0].[CreationTime], [t0].[CreatorUserId], [t0].[DeleterUserId], [t0].[DeletionTime], [t0].[EmailAddress], [t0].[EmailConfirmationCode], [t0].[IsActive], [t0].[IsDeleted], [t0].[IsEmailConfirmed], [t0].[IsLockoutEnabled], [t0].[IsPhoneNumberConfirmed], [t0].[IsTwoFactorEnabled], [t0].[LastModificationTime], [t0].[LastModifierUserId], [t0].[LockoutEndDateUtc], [t0].[Name], [t0].[NormalizedEmailAddress], [t0].[NormalizedUserName], [t0].[Password], [t0].[PasswordResetCode], [t0].[PhoneNumber], [t0].[SecurityStamp], [t0].[Surname], [t0].[TenantId], [t0].[UserName]
+FROM (
+    SELECT [q].[Id], [q].[AnswerCount], [q].[CreationTime], [q].[CreatorUserId], [q].[Text], [q].[Title], [q].[ViewCount], [q].[VoteCount]
+    FROM [Questions] AS [q]
+    ORDER BY [q].[CreationTime] DESC
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN (
+    SELECT [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+    FROM [AbpUsers] AS [a]
+    WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL)
+) AS [t0] ON [t].[CreatorUserId] = [t0].[Id]
+ORDER BY [t].[CreationTime] DESC
+INFO  2023-12-13 11:08:32,357 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-12-13 11:08:32,366 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:08:32,372 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestions (QuestionsAnswers.Application) in 99.0107ms
+INFO  2023-12-13 11:08:32,381 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestions (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:32,398 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestions?MaxResultCount=0&SkipCount=0&Sorting=CreationTime%20DESC - 200 1891 application/json;+charset=utf-8 142.7205ms
+INFO  2023-12-13 11:08:32,454 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd - - -
+INFO  2023-12-13 11:08:32,461 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:32,468 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd - 204 - - 18.2072ms
+INFO  2023-12-13 11:08:32,479 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd - text/plain;charset=UTF-8 0
+INFO  2023-12-13 11:08:32,484 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:32,494 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2023-12-13 11:08:32,499 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2023-12-13 11:08:32,504 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd - 200 273 application/json 26.7751ms
+INFO  2023-12-13 11:08:32,524 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44311/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd&id=5nt5N6iFppa5idxTPAUIDw - - -
+INFO  2023-12-13 11:08:32,530 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:32,537 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2023-12-13 11:08:32,547 [orker] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"5nt5N6iFppa5idxTPAUIDw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2023-12-13T11:08:32.5469757+03:00","Properties":{}}
+DEBUG 2023-12-13 11:08:32,552 [orker] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 5nt5N6iFppa5idxTPAUIDw
+INFO  2023-12-13 11:08:33,565 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:33,645 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - - -
+INFO  2023-12-13 11:08:33,651 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:33,657 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - 204 - - 13.0298ms
+INFO  2023-12-13 11:08:33,661 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - - -
+INFO  2023-12-13 11:08:33,667 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:33,672 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:33,678 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetQuestion", controller = "Question"}. Executing controller action with signature ModuleZeroSampleProject.Questions.Dto.GetQuestionOutput GetQuestion(ModuleZeroSampleProject.Questions.Dto.GetQuestionInput) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:08:33,723 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (31ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__input_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[AnswerCount], [t0].[CreationTime], [t0].[CreatorUserId], [t0].[Text], [t0].[Title], [t0].[ViewCount], [t0].[VoteCount], [t0].[Id0], [t0].[AccessFailedCount], [t0].[AuthenticationSource], [t0].[ConcurrencyStamp], [t0].[CreationTime0], [t0].[CreatorUserId0], [t0].[DeleterUserId], [t0].[DeletionTime], [t0].[EmailAddress], [t0].[EmailConfirmationCode], [t0].[IsActive], [t0].[IsDeleted], [t0].[IsEmailConfirmed], [t0].[IsLockoutEnabled], [t0].[IsPhoneNumberConfirmed], [t0].[IsTwoFactorEnabled], [t0].[LastModificationTime], [t0].[LastModifierUserId], [t0].[LockoutEndDateUtc], [t0].[Name], [t0].[NormalizedEmailAddress], [t0].[NormalizedUserName], [t0].[Password], [t0].[PasswordResetCode], [t0].[PhoneNumber], [t0].[SecurityStamp], [t0].[Surname], [t0].[TenantId], [t0].[UserName], [t1].[Id], [t1].[CreationTime], [t1].[CreatorUserId], [t1].[IsAccepted], [t1].[QuestionId], [t1].[Text], [t1].[Id0], [t1].[AccessFailedCount], [t1].[AuthenticationSource], [t1].[ConcurrencyStamp], [t1].[CreationTime0], [t1].[CreatorUserId0], [t1].[DeleterUserId], [t1].[DeletionTime], [t1].[EmailAddress], [t1].[EmailConfirmationCode], [t1].[IsActive], [t1].[IsDeleted], [t1].[IsEmailConfirmed], [t1].[IsLockoutEnabled], [t1].[IsPhoneNumberConfirmed], [t1].[IsTwoFactorEnabled], [t1].[LastModificationTime], [t1].[LastModifierUserId], [t1].[LockoutEndDateUtc], [t1].[Name], [t1].[NormalizedEmailAddress], [t1].[NormalizedUserName], [t1].[Password], [t1].[PasswordResetCode], [t1].[PhoneNumber], [t1].[SecurityStamp], [t1].[Surname], [t1].[TenantId], [t1].[UserName]
+FROM (
+    SELECT TOP(1) [q].[Id], [q].[AnswerCount], [q].[CreationTime], [q].[CreatorUserId], [q].[Text], [q].[Title], [q].[ViewCount], [q].[VoteCount], [t].[Id] AS [Id0], [t].[AccessFailedCount], [t].[AuthenticationSource], [t].[ConcurrencyStamp], [t].[CreationTime] AS [CreationTime0], [t].[CreatorUserId] AS [CreatorUserId0], [t].[DeleterUserId], [t].[DeletionTime], [t].[EmailAddress], [t].[EmailConfirmationCode], [t].[IsActive], [t].[IsDeleted], [t].[IsEmailConfirmed], [t].[IsLockoutEnabled], [t].[IsPhoneNumberConfirmed], [t].[IsTwoFactorEnabled], [t].[LastModificationTime], [t].[LastModifierUserId], [t].[LockoutEndDateUtc], [t].[Name], [t].[NormalizedEmailAddress], [t].[NormalizedUserName], [t].[Password], [t].[PasswordResetCode], [t].[PhoneNumber], [t].[SecurityStamp], [t].[Surname], [t].[TenantId], [t].[UserName]
+    FROM [Questions] AS [q]
+    LEFT JOIN (
+        SELECT [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+        FROM [AbpUsers] AS [a]
+        WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL)
+    ) AS [t] ON [q].[CreatorUserId] = [t].[Id]
+    WHERE [q].[Id] = @__input_Id_0
+) AS [t0]
+LEFT JOIN (
+    SELECT [a0].[Id], [a0].[CreationTime], [a0].[CreatorUserId], [a0].[IsAccepted], [a0].[QuestionId], [a0].[Text], [t2].[Id] AS [Id0], [t2].[AccessFailedCount], [t2].[AuthenticationSource], [t2].[ConcurrencyStamp], [t2].[CreationTime] AS [CreationTime0], [t2].[CreatorUserId] AS [CreatorUserId0], [t2].[DeleterUserId], [t2].[DeletionTime], [t2].[EmailAddress], [t2].[EmailConfirmationCode], [t2].[IsActive], [t2].[IsDeleted], [t2].[IsEmailConfirmed], [t2].[IsLockoutEnabled], [t2].[IsPhoneNumberConfirmed], [t2].[IsTwoFactorEnabled], [t2].[LastModificationTime], [t2].[LastModifierUserId], [t2].[LockoutEndDateUtc], [t2].[Name], [t2].[NormalizedEmailAddress], [t2].[NormalizedUserName], [t2].[Password], [t2].[PasswordResetCode], [t2].[PhoneNumber], [t2].[SecurityStamp], [t2].[Surname], [t2].[TenantId], [t2].[UserName]
+    FROM [Answers] AS [a0]
+    LEFT JOIN (
+        SELECT [a1].[Id], [a1].[AccessFailedCount], [a1].[AuthenticationSource], [a1].[ConcurrencyStamp], [a1].[CreationTime], [a1].[CreatorUserId], [a1].[DeleterUserId], [a1].[DeletionTime], [a1].[EmailAddress], [a1].[EmailConfirmationCode], [a1].[IsActive], [a1].[IsDeleted], [a1].[IsEmailConfirmed], [a1].[IsLockoutEnabled], [a1].[IsPhoneNumberConfirmed], [a1].[IsTwoFactorEnabled], [a1].[LastModificationTime], [a1].[LastModifierUserId], [a1].[LockoutEndDateUtc], [a1].[Name], [a1].[NormalizedEmailAddress], [a1].[NormalizedUserName], [a1].[Password], [a1].[PasswordResetCode], [a1].[PhoneNumber], [a1].[SecurityStamp], [a1].[Surname], [a1].[TenantId], [a1].[UserName]
+        FROM [AbpUsers] AS [a1]
+        WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a1].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a1].[TenantId] IS NULL)
+    ) AS [t2] ON [a0].[CreatorUserId] = [t2].[Id]
+) AS [t1] ON [t0].[Id] = [t1].[QuestionId]
+ORDER BY [t0].[Id], [t0].[Id0], [t1].[Id]
+INFO  2023-12-13 11:08:33,743 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Questions] SET [ViewCount] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INFO  2023-12-13 11:08:33,760 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-12-13 11:08:33,767 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:08:33,774 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application) in 89.7124ms
+INFO  2023-12-13 11:08:33,780 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:33,786 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - 200 603 application/json;+charset=utf-8 123.9273ms
+INFO  2023-12-13 11:08:37,260 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/AcceptAnswer - - -
+INFO  2023-12-13 11:08:37,266 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:37,272 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/AcceptAnswer - 204 - - 9.9625ms
+INFO  2023-12-13 11:08:37,278 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/Question/AcceptAnswer - application/json-patch+json 2
+INFO  2023-12-13 11:08:37,283 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:37,289 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.AcceptAnswer (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:37,296 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "AcceptAnswer", controller = "Question"}. Executing controller action with signature Void AcceptAnswer(Abp.Application.Services.Dto.EntityDto) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:08:37,318 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+WARN  2023-12-13 11:08:37,323 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError()
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+WARN  2023-12-13 11:08:37,323 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2023-12-13 11:08:37,323 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - A non-empty request body is required. ()
+INFO  2023-12-13 11:08:37,328 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:08:37,334 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.AcceptAnswer (QuestionsAnswers.Application) in 32.4576ms
+INFO  2023-12-13 11:08:37,339 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.AcceptAnswer (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:37,345 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/Question/AcceptAnswer - 400 349 application/json;+charset=utf-8 70.8878ms
+INFO  2023-12-13 11:08:38,575 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:40,057 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/Question/AcceptAnswer - application/json-patch+json 2
+INFO  2023-12-13 11:08:40,062 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:40,068 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.AcceptAnswer (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:40,074 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "AcceptAnswer", controller = "Question"}. Executing controller action with signature Void AcceptAnswer(Abp.Application.Services.Dto.EntityDto) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:08:40,090 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+WARN  2023-12-13 11:08:40,095 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError()
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+WARN  2023-12-13 11:08:40,095 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2023-12-13 11:08:40,095 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - A non-empty request body is required. ()
+INFO  2023-12-13 11:08:40,102 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:08:40,108 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.AcceptAnswer (QuestionsAnswers.Application) in 28.6863ms
+INFO  2023-12-13 11:08:40,112 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.AcceptAnswer (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:40,118 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/Question/AcceptAnswer - 400 349 application/json;+charset=utf-8 61.4028ms
+INFO  2023-12-13 11:08:43,053 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/VoteDown - - -
+INFO  2023-12-13 11:08:43,058 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:43,064 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/VoteDown - 204 - - 10.9157ms
+INFO  2023-12-13 11:08:43,070 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/Question/VoteDown - application/json-patch+json 484
+INFO  2023-12-13 11:08:43,076 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:08:43,081 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.VoteDown (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:43,090 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "VoteDown", controller = "Question"}. Executing controller action with signature ModuleZeroSampleProject.Questions.Dto.VoteChangeOutput VoteDown(Abp.Application.Services.Dto.EntityDto) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:08:43,100 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [q].[Id], [q].[AnswerCount], [q].[CreationTime], [q].[CreatorUserId], [q].[Text], [q].[Title], [q].[ViewCount], [q].[VoteCount]
+FROM [Questions] AS [q]
+WHERE [q].[Id] = @__p_0
+INFO  2023-12-13 11:08:43,112 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Questions] SET [VoteCount] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INFO  2023-12-13 11:08:43,131 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-12-13 11:08:43,138 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:08:43,143 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.VoteDown (QuestionsAnswers.Application) in 48.6547ms
+INFO  2023-12-13 11:08:43,148 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.VoteDown (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:08:43,153 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/Question/VoteDown - 200 112 application/json;+charset=utf-8 84.0655ms
+INFO  2023-12-13 11:08:43,594 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:48,616 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:53,625 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:08:58,634 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:03,645 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:08,647 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:13,661 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:18,668 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:23,681 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:28,710 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:33,730 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:38,745 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:43,761 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:48,774 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:53,783 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:09:58,796 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:03,811 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:08,830 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:09,916 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - - -
+INFO  2023-12-13 11:10:09,921 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:10:09,926 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - 204 - - 9.5251ms
+INFO  2023-12-13 11:10:09,931 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - - -
+INFO  2023-12-13 11:10:09,936 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:10:09,941 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:10:09,956 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetQuestion", controller = "Question"}. Executing controller action with signature ModuleZeroSampleProject.Questions.Dto.GetQuestionOutput GetQuestion(ModuleZeroSampleProject.Questions.Dto.GetQuestionInput) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:10:09,994 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (23ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__input_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[AnswerCount], [t0].[CreationTime], [t0].[CreatorUserId], [t0].[Text], [t0].[Title], [t0].[ViewCount], [t0].[VoteCount], [t0].[Id0], [t0].[AccessFailedCount], [t0].[AuthenticationSource], [t0].[ConcurrencyStamp], [t0].[CreationTime0], [t0].[CreatorUserId0], [t0].[DeleterUserId], [t0].[DeletionTime], [t0].[EmailAddress], [t0].[EmailConfirmationCode], [t0].[IsActive], [t0].[IsDeleted], [t0].[IsEmailConfirmed], [t0].[IsLockoutEnabled], [t0].[IsPhoneNumberConfirmed], [t0].[IsTwoFactorEnabled], [t0].[LastModificationTime], [t0].[LastModifierUserId], [t0].[LockoutEndDateUtc], [t0].[Name], [t0].[NormalizedEmailAddress], [t0].[NormalizedUserName], [t0].[Password], [t0].[PasswordResetCode], [t0].[PhoneNumber], [t0].[SecurityStamp], [t0].[Surname], [t0].[TenantId], [t0].[UserName], [t1].[Id], [t1].[CreationTime], [t1].[CreatorUserId], [t1].[IsAccepted], [t1].[QuestionId], [t1].[Text], [t1].[Id0], [t1].[AccessFailedCount], [t1].[AuthenticationSource], [t1].[ConcurrencyStamp], [t1].[CreationTime0], [t1].[CreatorUserId0], [t1].[DeleterUserId], [t1].[DeletionTime], [t1].[EmailAddress], [t1].[EmailConfirmationCode], [t1].[IsActive], [t1].[IsDeleted], [t1].[IsEmailConfirmed], [t1].[IsLockoutEnabled], [t1].[IsPhoneNumberConfirmed], [t1].[IsTwoFactorEnabled], [t1].[LastModificationTime], [t1].[LastModifierUserId], [t1].[LockoutEndDateUtc], [t1].[Name], [t1].[NormalizedEmailAddress], [t1].[NormalizedUserName], [t1].[Password], [t1].[PasswordResetCode], [t1].[PhoneNumber], [t1].[SecurityStamp], [t1].[Surname], [t1].[TenantId], [t1].[UserName]
+FROM (
+    SELECT TOP(1) [q].[Id], [q].[AnswerCount], [q].[CreationTime], [q].[CreatorUserId], [q].[Text], [q].[Title], [q].[ViewCount], [q].[VoteCount], [t].[Id] AS [Id0], [t].[AccessFailedCount], [t].[AuthenticationSource], [t].[ConcurrencyStamp], [t].[CreationTime] AS [CreationTime0], [t].[CreatorUserId] AS [CreatorUserId0], [t].[DeleterUserId], [t].[DeletionTime], [t].[EmailAddress], [t].[EmailConfirmationCode], [t].[IsActive], [t].[IsDeleted], [t].[IsEmailConfirmed], [t].[IsLockoutEnabled], [t].[IsPhoneNumberConfirmed], [t].[IsTwoFactorEnabled], [t].[LastModificationTime], [t].[LastModifierUserId], [t].[LockoutEndDateUtc], [t].[Name], [t].[NormalizedEmailAddress], [t].[NormalizedUserName], [t].[Password], [t].[PasswordResetCode], [t].[PhoneNumber], [t].[SecurityStamp], [t].[Surname], [t].[TenantId], [t].[UserName]
+    FROM [Questions] AS [q]
+    LEFT JOIN (
+        SELECT [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+        FROM [AbpUsers] AS [a]
+        WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL)
+    ) AS [t] ON [q].[CreatorUserId] = [t].[Id]
+    WHERE [q].[Id] = @__input_Id_0
+) AS [t0]
+LEFT JOIN (
+    SELECT [a0].[Id], [a0].[CreationTime], [a0].[CreatorUserId], [a0].[IsAccepted], [a0].[QuestionId], [a0].[Text], [t2].[Id] AS [Id0], [t2].[AccessFailedCount], [t2].[AuthenticationSource], [t2].[ConcurrencyStamp], [t2].[CreationTime] AS [CreationTime0], [t2].[CreatorUserId] AS [CreatorUserId0], [t2].[DeleterUserId], [t2].[DeletionTime], [t2].[EmailAddress], [t2].[EmailConfirmationCode], [t2].[IsActive], [t2].[IsDeleted], [t2].[IsEmailConfirmed], [t2].[IsLockoutEnabled], [t2].[IsPhoneNumberConfirmed], [t2].[IsTwoFactorEnabled], [t2].[LastModificationTime], [t2].[LastModifierUserId], [t2].[LockoutEndDateUtc], [t2].[Name], [t2].[NormalizedEmailAddress], [t2].[NormalizedUserName], [t2].[Password], [t2].[PasswordResetCode], [t2].[PhoneNumber], [t2].[SecurityStamp], [t2].[Surname], [t2].[TenantId], [t2].[UserName]
+    FROM [Answers] AS [a0]
+    LEFT JOIN (
+        SELECT [a1].[Id], [a1].[AccessFailedCount], [a1].[AuthenticationSource], [a1].[ConcurrencyStamp], [a1].[CreationTime], [a1].[CreatorUserId], [a1].[DeleterUserId], [a1].[DeletionTime], [a1].[EmailAddress], [a1].[EmailConfirmationCode], [a1].[IsActive], [a1].[IsDeleted], [a1].[IsEmailConfirmed], [a1].[IsLockoutEnabled], [a1].[IsPhoneNumberConfirmed], [a1].[IsTwoFactorEnabled], [a1].[LastModificationTime], [a1].[LastModifierUserId], [a1].[LockoutEndDateUtc], [a1].[Name], [a1].[NormalizedEmailAddress], [a1].[NormalizedUserName], [a1].[Password], [a1].[PasswordResetCode], [a1].[PhoneNumber], [a1].[SecurityStamp], [a1].[Surname], [a1].[TenantId], [a1].[UserName]
+        FROM [AbpUsers] AS [a1]
+        WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a1].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a1].[TenantId] IS NULL)
+    ) AS [t2] ON [a0].[CreatorUserId] = [t2].[Id]
+) AS [t1] ON [t0].[Id] = [t1].[QuestionId]
+ORDER BY [t0].[Id], [t0].[Id0], [t1].[Id]
+INFO  2023-12-13 11:10:10,011 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Questions] SET [ViewCount] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INFO  2023-12-13 11:10:10,029 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-12-13 11:10:10,039 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:10:10,044 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application) in 82.7766ms
+INFO  2023-12-13 11:10:10,049 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:10:10,057 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - 200 603 application/json;+charset=utf-8 123.0910ms
+INFO  2023-12-13 11:10:13,842 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:18,855 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:23,875 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:28,909 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:33,925 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:38,929 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:43,937 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:48,949 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:53,963 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:10:58,963 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:03,968 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:08,977 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:13,983 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:18,995 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:24,003 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:29,014 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:34,023 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:39,039 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:44,058 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:49,056 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:54,071 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:11:59,082 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:04,096 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:09,118 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:14,131 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:19,156 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:24,188 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:29,202 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:34,222 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:39,244 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:44,268 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:47,085 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__utcNow_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ExpireDate], [a].[LoginProvider], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpUserTokens] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[ExpireDate] <= @__utcNow_0
+INFO  2023-12-13 11:12:47,105 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id]
+FROM [AbpTenants] AS [a]
+WHERE @__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)
+INFO  2023-12-13 11:12:47,127 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND [a].[Id] = @__p_0
+INFO  2023-12-13 11:12:47,136 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__utcNow_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ExpireDate], [a].[LoginProvider], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpUserTokens] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] = @__ef_filter__CurrentTenantId_1) AND [a].[ExpireDate] <= @__utcNow_0
+INFO  2023-12-13 11:12:49,279 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:54,298 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:12:59,307 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:04,326 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:09,356 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:14,381 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:19,405 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:24,426 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:29,449 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:34,463 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:39,504 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:44,515 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:49,539 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:54,569 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:13:59,594 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:04,609 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:09,623 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:14,641 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:19,667 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:24,686 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:29,719 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:34,753 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:39,783 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:44,822 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:49,865 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:54,890 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:14:59,901 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:04,904 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:09,908 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:14,913 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:19,922 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:24,936 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:29,950 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:34,965 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:39,979 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+DEBUG 2023-12-13 11:15:40,048 [orker] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 5nt5N6iFppa5idxTPAUIDw
+INFO  2023-12-13 11:15:40,055 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2023-12-13 11:15:40,063 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44311/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd&id=5nt5N6iFppa5idxTPAUIDw - 101 - - 427536.6146ms
+INFO  2023-12-13 11:15:44,323 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/AbpUserConfiguration/GetAll - - -
+INFO  2023-12-13 11:15:44,327 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:44,333 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/AbpUserConfiguration/GetAll - 204 - - 8.8831ms
+INFO  2023-12-13 11:15:44,338 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AbpUserConfiguration/GetAll - - -
+INFO  2023-12-13 11:15:44,343 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:44,359 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] = @__userId_0 AND [a].[TenantId] IS NULL
+INFO  2023-12-13 11:15:44,365 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2023-12-13 11:15:44,373 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2023-12-13 11:15:44,390 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[Icon], [a].[IsDeleted], [a].[IsDisabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId]
+FROM [AbpLanguages] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL)
+INFO  2023-12-13 11:15:44,410 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-12-13 11:15:44,418 [orker] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:15:44,424 [orker] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 45.9898ms
+INFO  2023-12-13 11:15:44,428 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2023-12-13 11:15:44,434 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AbpUserConfiguration/GetAll - 200 - application/json;+charset=utf-8 95.8890ms
+INFO  2023-12-13 11:15:44,445 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Session/GetCurrentLoginInformations - - -
+INFO  2023-12-13 11:15:44,451 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:44,457 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Session/GetCurrentLoginInformations - 204 - - 10.1742ms
+INFO  2023-12-13 11:15:44,462 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Session/GetCurrentLoginInformations - - -
+INFO  2023-12-13 11:15:44,468 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:44,472 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'QuestionsAnswers.Sessions.SessionAppService.GetCurrentLoginInformations (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:44,479 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuestionsAnswers.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller QuestionsAnswers.Sessions.SessionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:15:44,497 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[Id] = @__p_0
+INFO  2023-12-13 11:15:44,505 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:15:44,511 [orker] c.Infrastructure.ControllerActionInvoker - Executed action QuestionsAnswers.Sessions.SessionAppService.GetCurrentLoginInformations (QuestionsAnswers.Application) in 26.797ms
+INFO  2023-12-13 11:15:44,516 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'QuestionsAnswers.Sessions.SessionAppService.GetCurrentLoginInformations (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:44,526 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Session/GetCurrentLoginInformations - 200 325 application/json;+charset=utf-8 61.6558ms
+INFO  2023-12-13 11:15:44,753 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestions?MaxResultCount=0&SkipCount=0&Sorting=CreationTime%20DESC - - -
+INFO  2023-12-13 11:15:44,763 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:44,771 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestions?MaxResultCount=0&SkipCount=0&Sorting=CreationTime%20DESC - 204 - - 20.5244ms
+INFO  2023-12-13 11:15:44,776 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestions?MaxResultCount=0&SkipCount=0&Sorting=CreationTime%20DESC - - -
+INFO  2023-12-13 11:15:44,781 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:44,788 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestions (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:44,795 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetQuestions", controller = "Question"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[ModuleZeroSampleProject.Questions.Dto.QuestionDto] GetQuestions(ModuleZeroSampleProject.Questions.Dto.GetQuestionsInput) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:15:44,807 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Questions] AS [q]
+INFO  2023-12-13 11:15:44,841 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd - - -
+INFO  2023-12-13 11:15:44,848 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (32ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[AnswerCount], [t].[CreationTime], [t].[CreatorUserId], [t].[Text], [t].[Title], [t].[ViewCount], [t].[VoteCount], [t0].[Id], [t0].[AccessFailedCount], [t0].[AuthenticationSource], [t0].[ConcurrencyStamp], [t0].[CreationTime], [t0].[CreatorUserId], [t0].[DeleterUserId], [t0].[DeletionTime], [t0].[EmailAddress], [t0].[EmailConfirmationCode], [t0].[IsActive], [t0].[IsDeleted], [t0].[IsEmailConfirmed], [t0].[IsLockoutEnabled], [t0].[IsPhoneNumberConfirmed], [t0].[IsTwoFactorEnabled], [t0].[LastModificationTime], [t0].[LastModifierUserId], [t0].[LockoutEndDateUtc], [t0].[Name], [t0].[NormalizedEmailAddress], [t0].[NormalizedUserName], [t0].[Password], [t0].[PasswordResetCode], [t0].[PhoneNumber], [t0].[SecurityStamp], [t0].[Surname], [t0].[TenantId], [t0].[UserName]
+FROM (
+    SELECT [q].[Id], [q].[AnswerCount], [q].[CreationTime], [q].[CreatorUserId], [q].[Text], [q].[Title], [q].[ViewCount], [q].[VoteCount]
+    FROM [Questions] AS [q]
+    ORDER BY [q].[CreationTime] DESC
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN (
+    SELECT [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+    FROM [AbpUsers] AS [a]
+    WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL)
+) AS [t0] ON [t].[CreatorUserId] = [t0].[Id]
+ORDER BY [t].[CreationTime] DESC
+INFO  2023-12-13 11:15:44,855 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:44,862 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd - 204 - - 20.6544ms
+INFO  2023-12-13 11:15:44,889 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd - text/plain;charset=UTF-8 0
+INFO  2023-12-13 11:15:44,896 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:44,904 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (26ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-12-13 11:15:44,918 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2023-12-13 11:15:44,923 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:15:44,928 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2023-12-13 11:15:44,937 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd - 200 273 application/json 47.7470ms
+INFO  2023-12-13 11:15:44,942 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestions (QuestionsAnswers.Application) in 135.4124ms
+INFO  2023-12-13 11:15:44,946 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestions (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:44,952 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44311/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd&id=aU_QQgeQ7dG7os58Pa4UBA - - -
+INFO  2023-12-13 11:15:44,957 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestions?MaxResultCount=0&SkipCount=0&Sorting=CreationTime%20DESC - 200 1891 application/json;+charset=utf-8 177.7336ms
+INFO  2023-12-13 11:15:44,962 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:44,971 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2023-12-13 11:15:44,982 [orker] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"aU_QQgeQ7dG7os58Pa4UBA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2023-12-13T11:15:44.9821477+03:00","Properties":{}}
+DEBUG 2023-12-13 11:15:44,986 [orker] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: aU_QQgeQ7dG7os58Pa4UBA
+INFO  2023-12-13 11:15:45,007 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (11ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:47,282 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=18 - - -
+INFO  2023-12-13 11:15:47,286 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:47,291 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=18 - 204 - - 10.6421ms
+INFO  2023-12-13 11:15:47,295 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=18 - - -
+INFO  2023-12-13 11:15:47,300 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:47,304 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:47,310 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetQuestion", controller = "Question"}. Executing controller action with signature ModuleZeroSampleProject.Questions.Dto.GetQuestionOutput GetQuestion(ModuleZeroSampleProject.Questions.Dto.GetQuestionInput) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:15:47,350 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (28ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__input_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[AnswerCount], [t0].[CreationTime], [t0].[CreatorUserId], [t0].[Text], [t0].[Title], [t0].[ViewCount], [t0].[VoteCount], [t0].[Id0], [t0].[AccessFailedCount], [t0].[AuthenticationSource], [t0].[ConcurrencyStamp], [t0].[CreationTime0], [t0].[CreatorUserId0], [t0].[DeleterUserId], [t0].[DeletionTime], [t0].[EmailAddress], [t0].[EmailConfirmationCode], [t0].[IsActive], [t0].[IsDeleted], [t0].[IsEmailConfirmed], [t0].[IsLockoutEnabled], [t0].[IsPhoneNumberConfirmed], [t0].[IsTwoFactorEnabled], [t0].[LastModificationTime], [t0].[LastModifierUserId], [t0].[LockoutEndDateUtc], [t0].[Name], [t0].[NormalizedEmailAddress], [t0].[NormalizedUserName], [t0].[Password], [t0].[PasswordResetCode], [t0].[PhoneNumber], [t0].[SecurityStamp], [t0].[Surname], [t0].[TenantId], [t0].[UserName], [t1].[Id], [t1].[CreationTime], [t1].[CreatorUserId], [t1].[IsAccepted], [t1].[QuestionId], [t1].[Text], [t1].[Id0], [t1].[AccessFailedCount], [t1].[AuthenticationSource], [t1].[ConcurrencyStamp], [t1].[CreationTime0], [t1].[CreatorUserId0], [t1].[DeleterUserId], [t1].[DeletionTime], [t1].[EmailAddress], [t1].[EmailConfirmationCode], [t1].[IsActive], [t1].[IsDeleted], [t1].[IsEmailConfirmed], [t1].[IsLockoutEnabled], [t1].[IsPhoneNumberConfirmed], [t1].[IsTwoFactorEnabled], [t1].[LastModificationTime], [t1].[LastModifierUserId], [t1].[LockoutEndDateUtc], [t1].[Name], [t1].[NormalizedEmailAddress], [t1].[NormalizedUserName], [t1].[Password], [t1].[PasswordResetCode], [t1].[PhoneNumber], [t1].[SecurityStamp], [t1].[Surname], [t1].[TenantId], [t1].[UserName]
+FROM (
+    SELECT TOP(1) [q].[Id], [q].[AnswerCount], [q].[CreationTime], [q].[CreatorUserId], [q].[Text], [q].[Title], [q].[ViewCount], [q].[VoteCount], [t].[Id] AS [Id0], [t].[AccessFailedCount], [t].[AuthenticationSource], [t].[ConcurrencyStamp], [t].[CreationTime] AS [CreationTime0], [t].[CreatorUserId] AS [CreatorUserId0], [t].[DeleterUserId], [t].[DeletionTime], [t].[EmailAddress], [t].[EmailConfirmationCode], [t].[IsActive], [t].[IsDeleted], [t].[IsEmailConfirmed], [t].[IsLockoutEnabled], [t].[IsPhoneNumberConfirmed], [t].[IsTwoFactorEnabled], [t].[LastModificationTime], [t].[LastModifierUserId], [t].[LockoutEndDateUtc], [t].[Name], [t].[NormalizedEmailAddress], [t].[NormalizedUserName], [t].[Password], [t].[PasswordResetCode], [t].[PhoneNumber], [t].[SecurityStamp], [t].[Surname], [t].[TenantId], [t].[UserName]
+    FROM [Questions] AS [q]
+    LEFT JOIN (
+        SELECT [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+        FROM [AbpUsers] AS [a]
+        WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL)
+    ) AS [t] ON [q].[CreatorUserId] = [t].[Id]
+    WHERE [q].[Id] = @__input_Id_0
+) AS [t0]
+LEFT JOIN (
+    SELECT [a0].[Id], [a0].[CreationTime], [a0].[CreatorUserId], [a0].[IsAccepted], [a0].[QuestionId], [a0].[Text], [t2].[Id] AS [Id0], [t2].[AccessFailedCount], [t2].[AuthenticationSource], [t2].[ConcurrencyStamp], [t2].[CreationTime] AS [CreationTime0], [t2].[CreatorUserId] AS [CreatorUserId0], [t2].[DeleterUserId], [t2].[DeletionTime], [t2].[EmailAddress], [t2].[EmailConfirmationCode], [t2].[IsActive], [t2].[IsDeleted], [t2].[IsEmailConfirmed], [t2].[IsLockoutEnabled], [t2].[IsPhoneNumberConfirmed], [t2].[IsTwoFactorEnabled], [t2].[LastModificationTime], [t2].[LastModifierUserId], [t2].[LockoutEndDateUtc], [t2].[Name], [t2].[NormalizedEmailAddress], [t2].[NormalizedUserName], [t2].[Password], [t2].[PasswordResetCode], [t2].[PhoneNumber], [t2].[SecurityStamp], [t2].[Surname], [t2].[TenantId], [t2].[UserName]
+    FROM [Answers] AS [a0]
+    LEFT JOIN (
+        SELECT [a1].[Id], [a1].[AccessFailedCount], [a1].[AuthenticationSource], [a1].[ConcurrencyStamp], [a1].[CreationTime], [a1].[CreatorUserId], [a1].[DeleterUserId], [a1].[DeletionTime], [a1].[EmailAddress], [a1].[EmailConfirmationCode], [a1].[IsActive], [a1].[IsDeleted], [a1].[IsEmailConfirmed], [a1].[IsLockoutEnabled], [a1].[IsPhoneNumberConfirmed], [a1].[IsTwoFactorEnabled], [a1].[LastModificationTime], [a1].[LastModifierUserId], [a1].[LockoutEndDateUtc], [a1].[Name], [a1].[NormalizedEmailAddress], [a1].[NormalizedUserName], [a1].[Password], [a1].[PasswordResetCode], [a1].[PhoneNumber], [a1].[SecurityStamp], [a1].[Surname], [a1].[TenantId], [a1].[UserName]
+        FROM [AbpUsers] AS [a1]
+        WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a1].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a1].[TenantId] IS NULL)
+    ) AS [t2] ON [a0].[CreatorUserId] = [t2].[Id]
+) AS [t1] ON [t0].[Id] = [t1].[QuestionId]
+ORDER BY [t0].[Id], [t0].[Id0], [t1].[Id]
+INFO  2023-12-13 11:15:47,363 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Questions] SET [ViewCount] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INFO  2023-12-13 11:15:47,377 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-12-13 11:15:47,384 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:15:47,389 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application) in 74.4035ms
+INFO  2023-12-13 11:15:47,393 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:47,399 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=18 - 200 299 application/json;+charset=utf-8 101.8913ms
+INFO  2023-12-13 11:15:49,259 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - - -
+INFO  2023-12-13 11:15:49,265 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:49,270 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - 204 - - 10.3275ms
+INFO  2023-12-13 11:15:49,274 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - - -
+INFO  2023-12-13 11:15:49,279 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:49,284 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:49,292 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetQuestion", controller = "Question"}. Executing controller action with signature ModuleZeroSampleProject.Questions.Dto.GetQuestionOutput GetQuestion(ModuleZeroSampleProject.Questions.Dto.GetQuestionInput) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:15:49,325 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (20ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__input_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t0].[Id], [t0].[AnswerCount], [t0].[CreationTime], [t0].[CreatorUserId], [t0].[Text], [t0].[Title], [t0].[ViewCount], [t0].[VoteCount], [t0].[Id0], [t0].[AccessFailedCount], [t0].[AuthenticationSource], [t0].[ConcurrencyStamp], [t0].[CreationTime0], [t0].[CreatorUserId0], [t0].[DeleterUserId], [t0].[DeletionTime], [t0].[EmailAddress], [t0].[EmailConfirmationCode], [t0].[IsActive], [t0].[IsDeleted], [t0].[IsEmailConfirmed], [t0].[IsLockoutEnabled], [t0].[IsPhoneNumberConfirmed], [t0].[IsTwoFactorEnabled], [t0].[LastModificationTime], [t0].[LastModifierUserId], [t0].[LockoutEndDateUtc], [t0].[Name], [t0].[NormalizedEmailAddress], [t0].[NormalizedUserName], [t0].[Password], [t0].[PasswordResetCode], [t0].[PhoneNumber], [t0].[SecurityStamp], [t0].[Surname], [t0].[TenantId], [t0].[UserName], [t1].[Id], [t1].[CreationTime], [t1].[CreatorUserId], [t1].[IsAccepted], [t1].[QuestionId], [t1].[Text], [t1].[Id0], [t1].[AccessFailedCount], [t1].[AuthenticationSource], [t1].[ConcurrencyStamp], [t1].[CreationTime0], [t1].[CreatorUserId0], [t1].[DeleterUserId], [t1].[DeletionTime], [t1].[EmailAddress], [t1].[EmailConfirmationCode], [t1].[IsActive], [t1].[IsDeleted], [t1].[IsEmailConfirmed], [t1].[IsLockoutEnabled], [t1].[IsPhoneNumberConfirmed], [t1].[IsTwoFactorEnabled], [t1].[LastModificationTime], [t1].[LastModifierUserId], [t1].[LockoutEndDateUtc], [t1].[Name], [t1].[NormalizedEmailAddress], [t1].[NormalizedUserName], [t1].[Password], [t1].[PasswordResetCode], [t1].[PhoneNumber], [t1].[SecurityStamp], [t1].[Surname], [t1].[TenantId], [t1].[UserName]
+FROM (
+    SELECT TOP(1) [q].[Id], [q].[AnswerCount], [q].[CreationTime], [q].[CreatorUserId], [q].[Text], [q].[Title], [q].[ViewCount], [q].[VoteCount], [t].[Id] AS [Id0], [t].[AccessFailedCount], [t].[AuthenticationSource], [t].[ConcurrencyStamp], [t].[CreationTime] AS [CreationTime0], [t].[CreatorUserId] AS [CreatorUserId0], [t].[DeleterUserId], [t].[DeletionTime], [t].[EmailAddress], [t].[EmailConfirmationCode], [t].[IsActive], [t].[IsDeleted], [t].[IsEmailConfirmed], [t].[IsLockoutEnabled], [t].[IsPhoneNumberConfirmed], [t].[IsTwoFactorEnabled], [t].[LastModificationTime], [t].[LastModifierUserId], [t].[LockoutEndDateUtc], [t].[Name], [t].[NormalizedEmailAddress], [t].[NormalizedUserName], [t].[Password], [t].[PasswordResetCode], [t].[PhoneNumber], [t].[SecurityStamp], [t].[Surname], [t].[TenantId], [t].[UserName]
+    FROM [Questions] AS [q]
+    LEFT JOIN (
+        SELECT [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+        FROM [AbpUsers] AS [a]
+        WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL)
+    ) AS [t] ON [q].[CreatorUserId] = [t].[Id]
+    WHERE [q].[Id] = @__input_Id_0
+) AS [t0]
+LEFT JOIN (
+    SELECT [a0].[Id], [a0].[CreationTime], [a0].[CreatorUserId], [a0].[IsAccepted], [a0].[QuestionId], [a0].[Text], [t2].[Id] AS [Id0], [t2].[AccessFailedCount], [t2].[AuthenticationSource], [t2].[ConcurrencyStamp], [t2].[CreationTime] AS [CreationTime0], [t2].[CreatorUserId] AS [CreatorUserId0], [t2].[DeleterUserId], [t2].[DeletionTime], [t2].[EmailAddress], [t2].[EmailConfirmationCode], [t2].[IsActive], [t2].[IsDeleted], [t2].[IsEmailConfirmed], [t2].[IsLockoutEnabled], [t2].[IsPhoneNumberConfirmed], [t2].[IsTwoFactorEnabled], [t2].[LastModificationTime], [t2].[LastModifierUserId], [t2].[LockoutEndDateUtc], [t2].[Name], [t2].[NormalizedEmailAddress], [t2].[NormalizedUserName], [t2].[Password], [t2].[PasswordResetCode], [t2].[PhoneNumber], [t2].[SecurityStamp], [t2].[Surname], [t2].[TenantId], [t2].[UserName]
+    FROM [Answers] AS [a0]
+    LEFT JOIN (
+        SELECT [a1].[Id], [a1].[AccessFailedCount], [a1].[AuthenticationSource], [a1].[ConcurrencyStamp], [a1].[CreationTime], [a1].[CreatorUserId], [a1].[DeleterUserId], [a1].[DeletionTime], [a1].[EmailAddress], [a1].[EmailConfirmationCode], [a1].[IsActive], [a1].[IsDeleted], [a1].[IsEmailConfirmed], [a1].[IsLockoutEnabled], [a1].[IsPhoneNumberConfirmed], [a1].[IsTwoFactorEnabled], [a1].[LastModificationTime], [a1].[LastModifierUserId], [a1].[LockoutEndDateUtc], [a1].[Name], [a1].[NormalizedEmailAddress], [a1].[NormalizedUserName], [a1].[Password], [a1].[PasswordResetCode], [a1].[PhoneNumber], [a1].[SecurityStamp], [a1].[Surname], [a1].[TenantId], [a1].[UserName]
+        FROM [AbpUsers] AS [a1]
+        WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a1].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a1].[TenantId] IS NULL)
+    ) AS [t2] ON [a0].[CreatorUserId] = [t2].[Id]
+) AS [t1] ON [t0].[Id] = [t1].[QuestionId]
+ORDER BY [t0].[Id], [t0].[Id0], [t1].[Id]
+INFO  2023-12-13 11:15:49,345 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Questions] SET [ViewCount] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+INFO  2023-12-13 11:15:49,365 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2023-12-13 11:15:49,371 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:15:49,377 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application) in 80.3153ms
+INFO  2023-12-13 11:15:49,384 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.GetQuestion (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:49,390 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/api/services/app/Question/GetQuestion?IncrementViewCount=true&Id=19 - 200 603 application/json;+charset=utf-8 114.2796ms
+INFO  2023-12-13 11:15:50,027 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:15:52,117 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/AcceptAnswer - - -
+INFO  2023-12-13 11:15:52,122 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:52,128 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44311/api/services/app/Question/AcceptAnswer - 204 - - 10.1130ms
+INFO  2023-12-13 11:15:52,133 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/services/app/Question/AcceptAnswer - application/json-patch+json 2
+INFO  2023-12-13 11:15:52,137 [orker] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2023-12-13 11:15:52,142 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.AcceptAnswer (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:52,149 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "AcceptAnswer", controller = "Question"}. Executing controller action with signature Void AcceptAnswer(Abp.Application.Services.Dto.EntityDto) on controller ModuleZeroSampleProject.Questions.QuestionAppService (QuestionsAnswers.Application).
+INFO  2023-12-13 11:15:52,217 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (57ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+WARN  2023-12-13 11:15:52,220 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError()
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+WARN  2023-12-13 11:15:52,221 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2023-12-13 11:15:52,221 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - A non-empty request body is required. ()
+INFO  2023-12-13 11:15:52,228 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-12-13 11:15:52,235 [orker] c.Infrastructure.ControllerActionInvoker - Executed action ModuleZeroSampleProject.Questions.QuestionAppService.AcceptAnswer (QuestionsAnswers.Application) in 80.1924ms
+INFO  2023-12-13 11:15:52,240 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ModuleZeroSampleProject.Questions.QuestionAppService.AcceptAnswer (QuestionsAnswers.Application)'
+INFO  2023-12-13 11:15:52,247 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/services/app/Question/AcceptAnswer - 400 349 application/json;+charset=utf-8 112.2416ms
+INFO  2023-12-13 11:15:55,048 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:16:00,055 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:16:05,059 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:16:10,081 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:16:15,097 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+DEBUG 2023-12-13 11:16:17,664 [orker] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: aU_QQgeQ7dG7os58Pa4UBA
+INFO  2023-12-13 11:16:17,697 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2023-12-13 11:16:17,703 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44311/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwNfOaJqxA4FdQOAkJd5W%2BXxvn0EW4DBPN18ygT5%2BVHg%2FBfrxQkJ4UKKwiuVhh2SKEoUj%2BsWMTcim5KzmTV5hgWiwaZNep8bK%2FjqBz4S%2FwGeE91KUq37jJprzeWe0QJ5CQu8i7cFzbvTf7kikmp2KOq%2BV2qEiECQkP1wf3jgQxfoYgzoufnBo1%2BZGZV5cwWl3RajG7ZvqJvB2Exhw%2BTPvD9r4rUIuwG0AOadYyQ%2BAPNCzsgMSw%2FlkjLOrVHuVgBCmAmXez6ShqmR3tltPAeu0CWy682jeUFXpItDfYXbEp%2FFLGzehuZNazrWu1qFgvJ1%2B8fGrTpiBc5Xd0XxhItJSoo%2B0PBwxwgJne686uuNyMp8c%2F896OcirEyglPB61Fym2G9w83pKPuksIPdM8fiXz9fSKG7Ve0RRI1%2BTWKAbpO%2FU9Retp0NWrHCdiOGl%2FSKSpvxYU35IBbhKkXihztVs3n3xPGrrbZGAtgkPPigJWUwT3ckBwpLd8Y15zC1a7KLNvoy5kTG2w24EDC3bZW8enSWwNhdvlxahi5vyF9wzpsfyPHYdDaQQ6ZmvIu7gTEBOWS2ows3LNf9XQMLVqrwrFNeJSl%2FVBcjMGBdEYJR%2FpUhrXrCFdTD2ky6wPS2IoMIRiJ4fbRZbj8PXnoand%2F1E4A2ydb8lR%2B%2FvHP%2BvgFanuQ2Zq5MX74qzaZDBtaHVVoX2z%2FaddtQzOaFYEMm6Dwv6%2BOillPaJ0s2QSoWJepztqo52ZgAm0%2BSM%2Bw9UlergLyi%2FY2fznmqyyxh50nsKV1toVxGd&id=aU_QQgeQ7dG7os58Pa4UBA - 101 - - 32753.9228ms
+INFO  2023-12-13 11:16:20,097 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2023-12-13 11:16:25,110 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]

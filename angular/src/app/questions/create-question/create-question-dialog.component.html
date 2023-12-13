@@ -1,0 +1,67 @@
+<form
+  class="form-horizontal"
+  autocomplete="off"
+  #createQuestionForm="ngForm"
+  (ngSubmit)="save()"
+>
+  <div class="modal-header">
+    <h3 class="modal-title">Create new question!</h3>
+  </div>
+  <div class="modal-body">
+    <fieldset>
+      <div class="form-group">
+        <label for="TitleInput" class="col-lg-2 control-label">Title:</label>
+        <div class="col-lg-10">
+          <input
+            type="text"
+            class="form-control"
+            name="TitleInput"
+            id="TitleInput"
+            placeholder="Enter title here"
+            required
+            [(ngModel)]="question.title"
+            #titleModel="ngModel"
+            #titleEl
+          />
+          <abp-validation-summary
+            [control]="titleModel"
+            [controlEl]="titleEl"
+          ></abp-validation-summary>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="TextInput" class="col-lg-2 control-label">Text:</label>
+        <div class="col-lg-10">
+          <textarea
+            class="form-control"
+            rows="5"
+            name="TextInput"
+            id="TextInput"
+            placeholder="Describe your question here"
+            required
+            [(ngModel)]="question.text"
+            #textModel="ngModel"
+            #textEl
+          ></textarea>
+          <abp-validation-summary
+            [control]="textModel"
+            [controlEl]="textEl"
+          ></abp-validation-summary>
+          <span class="help-block">
+            Please search your question before creating a new one. You can add code snippets and images to describe your problem cleaner.
+          </span>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-warning" (click)="cancel()">Cancel</button>
+    <button
+      class="btn btn-primary"
+      [disabled]="!createQuestionForm.valid"
+      type="submit"
+    >
+      Submit question
+    </button>
+  </div>
+</form>
