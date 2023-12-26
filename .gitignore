@@ -198,3 +198,4 @@ FakesAssemblies/
 !Nuget.exe
 /src/ModuleZeroSampleProject.Web/Logs
 src/migrate.exe
+aspnet-core/src/QuestionsAnswers.Web.Host/App_Data/Logs/*.*
