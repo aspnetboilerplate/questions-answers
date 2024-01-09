@@ -1,0 +1,51 @@
+﻿﻿<div class="container">
+    <div id="LoginArea" class="row">
+        <div class="col-lg-12">
+            <div class="well bs-component">
+                <form class="form-horizontal" id="LoginForm" asp-action="Login" method="post">
+                    @Html.AntiForgeryToken()
+                    <fieldset>
+                        <legend>Login</legend>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="text" class="form-control floating-label" name="usernameOrEmailAddress" placeholder="User name or email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="password" class="form-control" name="Password" placeholder="Password">
+
+                              <div class="remember">
+                                    <input type="checkbox" id="RememberMe" name="RememberMe" value="true">
+                                    <label for="RememberMe">
+                                        @L("RememberMe")
+                                    </label>
+                              </div>
+                                
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <button id="LoginButton" class="btn btn-primary"><i class="fa fa-sign-out"></i> Login</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                <p>
+                    username: admin<br />
+                    password: 123qwe
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section styles
+{
+    <link href="~/css/Account/login.min.css" rel="stylesheet" />
+}
+
+@section scripts
+{
+    <script src="~/js/views/account/login.js"></script>
+}

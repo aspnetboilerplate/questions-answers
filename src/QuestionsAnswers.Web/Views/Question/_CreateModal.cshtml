@@ -1,0 +1,34 @@
+﻿@using QuestionsAnswers.Web.Models.Common.Modals
+
+@{
+    Layout = null;
+}
+
+<div class="modal fade" id="QuestionCreateModal" tabindex="-1" role="dialog" aria-labelledby="QuestionCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("CreateNewQuestion")))
+            <form name="questionCreateForm" role="form" class="form-horizontal">
+                <div class="modal-body">
+                    <div class="form-group row required">
+                        <label class="col-md-12 col-form-label ">@L("Title")</label>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="Title" required minlength="2">
+                        </div>
+                    </div>
+
+                    <div class="form-group row required">
+                        <label class="col-md-12 col-form-label">@L("Text")</label>
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="Text" required minlength="2"></textarea>
+                            <span class="help-block">Please search your question before creating new one. You can add code snippets and images to describe your problem cleaner.</span>
+                        </div>
+                    </div>
+                </div>
+
+                 @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+            </form>
+        </div>
+    </div>
+</div>
+

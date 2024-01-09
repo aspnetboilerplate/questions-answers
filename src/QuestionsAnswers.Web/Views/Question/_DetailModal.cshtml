@@ -1,0 +1,78 @@
+﻿@using QuestionsAnswers.Web.Models.Common.Modals
+@model QuestionsAnswers.Web.Models.Question.QuestionDetailModalViewModel
+@{
+    Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/Question/detail.css" />
+<script src="~/view-resources/Views/Question/Detail.js" asp-append-version="true"></script>
+
+@await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("QuestionDetail")))
+<div class="modal-body">
+    <div class="panel panel-primary question-detail-panel">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-xs-10">
+                    <h3 class="panel-title">@Model.Question.Title</h3>
+                </div>
+                <input type="hidden" id="questionId" value="@Model.Question.Id" />
+
+                <div class="col-xs-2 text-right">
+                    <span id="voteCount">@Model.Question.VoteCount</span> @L("Votes")
+                    <a href="javascript:void(0)" id="voteUpLink">
+                        <i class="fa fa-chevron-up vote-change-icon" ></i>
+                    </a>
+                    <a href="javascript:void(0)" id="voteDownLink">
+                        <i class="fa fa-chevron-down vote-change-icon" ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">@Model.Question.Text</div>
+        <div class="panel-footer">
+            <span id="creatorUserName"></span>
+            <span class="text-muted">@Model.Question.CreationTime.ToString("yyyy-MM-dd HH:mm")</span>
+        </div>
+    </div>
+    @foreach (var answer in Model.Question.Answers.OrderBy(x=>x.IsAccepted))
+    {
+        <div class="panel panel-default answer-detail-panel" id="answerPanel" >
+            <div class="panel-body">@answer.Text
+
+                @if (!answer.IsAccepted)
+                {
+                    <div>
+                        <br />
+                        <button data-answerId="@answer.Id" class="btn btn-success acceptAnswer"><i class="fa fa-check"></i> @L("SetAnswer")</button>
+                    </div>
+                }
+                @if (answer.IsAccepted)
+                {
+                    <i class="fa fa-check-circle accepted-icon" title=" @L("SetAnswer") This answer is accepted by question owner"></i>
+                }
+            
+            </div>
+           
+            <div class="panel-footer">
+                <span v-if="@answer.CreatorUserName">@answer.CreatorUserName</span>,
+                <span class="text-muted">@answer.CreationTime</span>
+            </div>
+        </div>
+    }
+   
+
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title"> @L("AnswerTheQuestion")</h3>
+        </div>
+        <div class="panel-body">
+            <textarea id="answerTextarea" rows="10" class="col-xs-12"></textarea>
+        </div>
+        <div class="panel-footer text-right">
+            <button id="submitAnswer" class="btn btn-primary"><i class="fa fa-check"></i>  @L("SubmitAnswer")</button>
+        </div>
+    </div>
+
+</div>
+
+

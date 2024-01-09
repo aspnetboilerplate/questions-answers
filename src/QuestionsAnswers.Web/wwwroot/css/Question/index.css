@@ -1,0 +1,45 @@
+﻿﻿.command-list {
+    margin-bottom: 20px;
+}
+
+.question-list .question {
+    border-bottom: 1px solid #CCC;
+    margin-top:20px;
+}
+
+    .question-list .question:first-child {
+       /* border-top: 1px solid #CCC;*/
+    }
+
+    .question-list .question .vote-count,
+    .question-list .question .answer-count,
+    .question-list .question .view-count {
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+
+        .question-list .question .answer-count.answered {
+            background-color: #dcf2e0;
+            color: blue;
+        }
+
+    .question-list .question .summary h3 {
+        margin: 5px 0px 10px 0px;
+    }
+
+        .question-list .question .summary h3 .question-id {
+            color: #bbb;
+        }
+
+.vote-change-icon {
+    color: white;
+    font-size: 20px;
+}
+
+#showMoreBtn {
+    margin-top: 20px;
+}
+
+.formatted-date{
+    margin-left:5px;
+}

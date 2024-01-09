@@ -1,0 +1,14 @@
+﻿﻿body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+#LoginArea {
+    width: 480px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.remember {
+    margin-top: 10px;
+}
