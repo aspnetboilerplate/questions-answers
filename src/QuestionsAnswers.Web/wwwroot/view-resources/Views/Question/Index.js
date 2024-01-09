@@ -74,7 +74,7 @@
             '<div class="summary col-xs-12 col-sm-9">' +
             '<h3>' +
             '<a href="#" class="question-link" data-question-id="' + question.id + '" data-toggle="modal" data-target="#QuestionDetailModal">' +
-            '<span class="question-id">' + question.id + '</span> <span>' + question.title + '</span>' +
+            '<span class="question-id">' + "#" + question.id + '</span> <span>' + question.title + '</span>' +
             '</a>' +
             '</h3>' +
             '<div>' +
