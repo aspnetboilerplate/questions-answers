@@ -19,7 +19,6 @@
                 skipCount: skipCount,
                 sorting: sorting
             }).done(function (data) {
-                console.log(data);
                 if (append) {
                     for (var i = 0; i < data.items.length; i++) {
                         questions.push(data.items[i]);
@@ -44,6 +43,11 @@
         var questionList = $('#QuestionList');
         questionList.empty(); 
 
+        if (questions.length == 0) {
+            questionList.append('<div class="col-xs-12 text-center">' + abp.localization.localize('ThereAreNoQuestionsToShow') + '</div>');
+            return;
+        }
+        
         for (var i = 0; i < questions.length; i++) {
             var questionHtml = createQuestionHtml(questions[i]);
             questionList.append(questionHtml);

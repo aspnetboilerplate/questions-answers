@@ -26,8 +26,7 @@
     "SortedBy": "Sorted by",
     "SortAscending": "Sort by Ascending",
     "SortDescending": "Sort by Descending",
-      "RememberMe": "Remember me"
-
-
+    "RememberMe": "Remember me",
+    "ThereAreNoQuestionsToShow" : "There are no questions to show!"
   }
 }

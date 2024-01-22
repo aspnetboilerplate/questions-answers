@@ -18,8 +18,8 @@ namespace QuestionsAnswers.Migrator
             using (var bootstrapper = AbpBootstrapper.Create<QuestionsAnswersMigratorModule>())
             {
                 bootstrapper.IocManager.IocContainer
-                    .AddFacility<LoggingFacility>(
-                        f => f.UseAbpLog4Net().WithConfig("log4net.config")
+                    .AddFacility<LoggingFacility>(f => f.UseAbpLog4Net()
+                        .WithConfig("log4net.config")
                     );
 
                 bootstrapper.Initialize();
