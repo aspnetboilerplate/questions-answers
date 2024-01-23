@@ -1,0 +1,32 @@
+﻿{
+  "culture": "tr",
+  "texts": {
+    "HelloWorld": "Merhaba Dünya!",
+    "ChangeLanguage": "Dil değiştir",
+    "HomePage": "Ana sayfa",
+    "About": "Hakkında",
+    "Questions": "Sorular",
+    "Home_Description": "QuestionsAnswers projesine hoşgeldiniz...",
+    "About_Description": "Bu proje, ASP.NET Core ile ABP framework kullanmak için basit bir başlangıç şablonudur.",
+    "CreateNewQuestion": "Yeni Soru Oluştur",
+    "Title": "Başlık",
+    "Text": "Metin",
+    "Save": "Kaydet",
+    "Cancel": "İptal",
+    "SavedSuccessfully": "Başarıyla Kaydedildi",
+    "QuestionDetail": "Soru Detayı",
+    "Votes": "Oylar",
+    "SetAnswer": "Kabul Edilen Cevap Olarak Ayarla",
+    "AnswerTheQuestion": "Soruya Cevap Ver",
+    "SubmitAnswer": "Cevap Gönder",
+    "Answers": "Cevaplar",
+    "Views": "Görüntüleme",
+    "ShowMore": "Daha Fazla Göster",
+    "NewQuestion": "Yeni Soru",
+    "SortedBy": "Şuna Göre Sırala",
+    "SortAscending": "Artan Sırala",
+    "SortDescending": "Azalan Sırala",
+    "RememberMe": "Beni Hatırla",
+    "ThereAreNoQuestionsToShow" : "Gösterilecek soru bulunmuyor!"
+  }
+}

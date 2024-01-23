@@ -9,9 +9,9 @@ http://qasample.aspnetboilerplate.com/
 To run the sample:
 
 - Open the solution with Visual Studio.
-- Set `ModuleZeroSampleProject.Web` as your startup project.
-- Check the connection string in Web.config and change if necessary.
-- Run database migrations: Run 'Update-Database' command from Package Manager Console while ModuleZeroSampleProject.EntityFramework is selected as default project. This creates database and populates initial data.
+- Run database migrations by running.`QuestionsAnswers.Migrator` project.
+- Set `QuestionsAnswers.Web` as your startup project.
+- Check the connection string in `appsettings.json` and change if necessary.
 - Run the application! That's it. 
  
 ![alt login form](https://raw.githubusercontent.com/aspnetboilerplate/questions-answers/master/doc/login-form.png)

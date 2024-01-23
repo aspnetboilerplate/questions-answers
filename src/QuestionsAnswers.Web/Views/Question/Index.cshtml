@@ -1,0 +1,80 @@
+﻿@model QuestionsAnswers.Web.Models.Question.QuestionListViewModel
+
+@section styles {
+    <link rel="stylesheet" href="~/css/main.css" />
+    <link rel="stylesheet" href="~/css/Question/index.css" />
+}
+
+@section scripts {
+    <script src="~/view-resources/Views/Question/Index.js" asp-append-version="true"></script>
+}
+
+<div class="command-list row">
+    <div class="col-lg-12 text-right">
+        <div class="btn-group">
+            <a href="javascript:void(0)" class="btn btn-default dropdown-toggle" id="sortingDropdown" data-toggle="dropdown">
+                @L("SortedBy") <span id="sortingText"></span>
+                <span class="caret"></span>
+                <div class="ripple-wrapper"></div>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="javascript:void(0)" class="withripple" id="sortAsc"> @L("SortAscending")<div class="ripple-wrapper"></div></a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="withripple" id="sortDesc"> @L("SortDescending")<div class="ripple-wrapper"></div></a>
+                </li>
+            </ul>
+        </div>
+        <a href="javascript:;" data-toggle="modal" data-target="#QuestionCreateModal" class="btn bg-blue btn-primary float-sm-right">
+            <i class="fa fa-plus-square"></i>
+            @L("NewQuestion")
+        </a>
+    </div>
+</div>
+
+<div class="question-list">
+    <div class="row question" id="QuestionList">
+        <!-- Vote Count -->
+        <div class="vote-count col-sm-1 hidden-xs">
+            <div id="voteCount"></div>
+            <div>@L("Votes")</div>
+        </div>
+        <!-- Answer Count -->
+        <div class="answer-count col-sm-1 hidden-xs" id="answerCount">
+            <div id="answerCountValue"></div>
+            <div>@L("Answers")</div>
+        </div>
+        <!-- View Count -->
+        <div class="view-count col-sm-1 hidden-xs">
+            <div id="viewCount"></div>
+            <div>@L("Views")</div>
+        </div>
+        <!-- Summary -->
+        <div class="summary col-xs-12 col-sm-9">
+            <h4>
+                <a href="#" class="question-link" data-question-id="questionId" data-toggle="modal" data-target="#QuestionDetailModal">
+                    <span class="question-id"></span> <span id="questionTitle"></span>
+                </a>
+            </h4>
+            <div>
+                <span id="creatorUserName"></span>
+                <span class="text-muted" id="creationTime"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="text-right" id="questionCount"></div>
+</div>
+
+<a href="javascript:void(0)" class="btn btn-default btn-lg btn-block withripple" id="showMoreBtn">@L("ShowMore")<div class="ripple-wrapper"></div></a>
+
+@await Html.PartialAsync("~/Views/Question/_CreateModal.cshtml", Model)
+
+<div class="modal fade" id="QuestionDetailModal" tabindex="-1" role="dialog" aria-labelledby="QuestionDetailModalLabel" data-backdrop="static">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content"></div>
+    </div>
+</div>
