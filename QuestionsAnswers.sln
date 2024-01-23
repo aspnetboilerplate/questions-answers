@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F10AA149-2626-486E-85BB-9CD5365F3016}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionsAnswers.Web", "src\QuestionsAnswers.Web\QuestionsAnswers.Web.csproj", "{A2213374-BB48-48FD-BBD4-81E6A961D866}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionsAnswers.Core", "src\QuestionsAnswers.Core\QuestionsAnswers.Core.csproj", "{0FA75A5B-AB83-4FD0-B545-279774C01E87}"
@@ -14,10 +12,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionsAnswers.Application", "src\QuestionsAnswers.Application\QuestionsAnswers.Application.csproj", "{3870C648-4AEA-4B85-BA3F-F2F63B96136A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionsAnswers.EntityFrameworkCore", "src\QuestionsAnswers.EntityFrameworkCore\QuestionsAnswers.EntityFrameworkCore.csproj", "{DC780BC4-4EAC-4C63-9052-6F3169A59FA4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionsAnswers.Tests", "test\QuestionsAnswers.Tests\QuestionsAnswers.Tests.csproj", "{0D4C5D00-C144-4213-A007-4B8944113AB1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionsAnswers.Web.Tests", "test\QuestionsAnswers.Web.Tests\QuestionsAnswers.Web.Tests.csproj", "{5D441612-29CA-4DAD-9945-B9DE11CE026C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionsAnswers.Migrator", "src\QuestionsAnswers.Migrator\QuestionsAnswers.Migrator.csproj", "{32C6C8F8-F069-4ACD-BEE3-3DDE0333BEF0}"
 EndProject
@@ -43,14 +37,6 @@ Global
 		{DC780BC4-4EAC-4C63-9052-6F3169A59FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC780BC4-4EAC-4C63-9052-6F3169A59FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC780BC4-4EAC-4C63-9052-6F3169A59FA4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D4C5D00-C144-4213-A007-4B8944113AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D4C5D00-C144-4213-A007-4B8944113AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D4C5D00-C144-4213-A007-4B8944113AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D4C5D00-C144-4213-A007-4B8944113AB1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D441612-29CA-4DAD-9945-B9DE11CE026C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D441612-29CA-4DAD-9945-B9DE11CE026C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D441612-29CA-4DAD-9945-B9DE11CE026C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D441612-29CA-4DAD-9945-B9DE11CE026C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{32C6C8F8-F069-4ACD-BEE3-3DDE0333BEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32C6C8F8-F069-4ACD-BEE3-3DDE0333BEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C6C8F8-F069-4ACD-BEE3-3DDE0333BEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -64,8 +50,6 @@ Global
 		{0FA75A5B-AB83-4FD0-B545-279774C01E87} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{3870C648-4AEA-4B85-BA3F-F2F63B96136A} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{DC780BC4-4EAC-4C63-9052-6F3169A59FA4} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
-		{0D4C5D00-C144-4213-A007-4B8944113AB1} = {F10AA149-2626-486E-85BB-9CD5365F3016}
-		{5D441612-29CA-4DAD-9945-B9DE11CE026C} = {F10AA149-2626-486E-85BB-9CD5365F3016}
 		{32C6C8F8-F069-4ACD-BEE3-3DDE0333BEF0} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
